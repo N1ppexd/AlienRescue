@@ -52,7 +52,7 @@
                 {
                     "name": "Left",
                     "id": "3c05a01e-e5ff-4c04-be34-170917c9ca26",
-                    "path": "",
+                    "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -63,7 +63,7 @@
                 {
                     "name": "Right",
                     "id": "663a6949-fe5f-4c3f-9f64-ca809d1548d6",
-                    "path": "",
+                    "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -74,7 +74,7 @@
                 {
                     "name": "",
                     "id": "3041d057-f7c8-4ae7-93d0-3f18c37d5134",
-                    "path": "",
+                    "path": "<Gamepad>/leftStick",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
