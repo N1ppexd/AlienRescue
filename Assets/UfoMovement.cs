@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class UfoMovement : MonoBehaviour
 {
+
+    [SerializeField] private float speed;//ufon nopeus...
+
+
     // Start is called before the first frame update
     void Start()
     {
