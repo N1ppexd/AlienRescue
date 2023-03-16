@@ -25,7 +25,8 @@ public class BeamDetect : MonoBehaviour
 
         if (isBeingLifted)
         {
-            rb.AddForce((ufo.position - transform.position) * pullForce * Time.deltaTime, ForceMode.Force);
+            if (transform.position.y < ufo.transform.position.y)
+                rb.velocity = (ufo.position - transform.position) * pullForce; //liikutaan beamia kohti
         }
     }
     private void OnTriggerEnter(Collider other)
