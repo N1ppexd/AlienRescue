@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class BeamDetect : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class BeamDetect : MonoBehaviour
 
     private Transform ufo;
 
+    [SerializeField] private NavMeshAgent agent; //ai agentti laitetaan pois ku beami ossuu...
+
     private void Awake()
     {
         ufo = GameObject.Find("ufo").transform;
@@ -18,6 +21,7 @@ public class BeamDetect : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (ufo == null) return;
 
         if (isBeingLifted)
         {
@@ -28,6 +32,7 @@ public class BeamDetect : MonoBehaviour
     {
         if (other.gameObject.CompareTag("beam"))
         {
+            agent.enabled = false;//laitetaan agentti pois p‰‰lt‰
             isBeingLifted = true;
         }
         if (other.gameObject.CompareTag("ufo"))
