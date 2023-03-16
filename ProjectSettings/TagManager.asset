@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ufo
   - beam
+  - ground
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - UI
   - enemy
   - ufo
-  - 
+  - ground
   - 
   - 
   - 
