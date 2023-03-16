@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour
 {
+    [SerializeField] private NavMeshAgent agent;
+    [SerializeField] private float wanderRadius;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +17,6 @@ public class EnemyAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
