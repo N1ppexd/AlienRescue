@@ -18,6 +18,9 @@ public class EnemyAI : MonoBehaviour
 
     [SerializeField] private ParticleSystem bloodParticles; //veriläiskä....
 
+
+    [SerializeField] private Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,18 +29,14 @@ public class EnemyAI : MonoBehaviour
     }
 
 
-    private void Update()
+    private void FixedUpdate()
     {
 
         //  HUOM: pitää laittaa vielä niin, että jos menee y akselilla enemmän kuin x:llä, 
         //niin se animaatio muuttuu siihen, että selkä on tähän suuntaan, ja toisinpäin myös
 
-        if (axis.x > 0)
-            characterSprite.flipX = true;
-        else if(axis.x < 0)
-        {
-            characterSprite.flipX = false;
-        }
+        anim.SetFloat("x", axis.x);
+        anim.SetFloat("y", axis.y);
     }
 
     IEnumerator wanderRandomly()

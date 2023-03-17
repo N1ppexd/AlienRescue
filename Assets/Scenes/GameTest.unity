@@ -1698,6 +1698,7 @@ MonoBehaviour:
     m_Bits: 256
   characterSprite: {fileID: 1509181275}
   bloodParticles: {fileID: 1505904398}
+  anim: {fileID: 1509181276}
 --- !u!4 &1349584499
 Transform:
   m_ObjectHideFlags: 0
