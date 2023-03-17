@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Rendering;
@@ -10,6 +11,9 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private float wanderRadius;
     [SerializeField] private LayerMask groundMask; //objektit, joilla on tämä layer, on maata
 
+    [SerializeField] private SpriteRenderer characterSprite;
+
+    private Vector2 axis; //käytetään siihen, että sprite katsoo menosuuntaan...
     private Vector3 wanderPos;
 
     [SerializeField] private ParticleSystem bloodParticles; //veriläiskä....
@@ -21,6 +25,20 @@ public class EnemyAI : MonoBehaviour
             StartCoroutine(wanderRandomly());
     }
 
+
+    private void Update()
+    {
+
+        //  HUOM: pitää laittaa vielä niin, että jos menee y akselilla enemmän kuin x:llä, 
+        //niin se animaatio muuttuu siihen, että selkä on tähän suuntaan, ja toisinpäin myös
+
+        if (axis.x > 0)
+            characterSprite.flipX = true;
+        else if(axis.x < 0)
+        {
+            characterSprite.flipX = false;
+        }
+    }
 
     IEnumerator wanderRandomly()
     {
@@ -38,7 +56,7 @@ public class EnemyAI : MonoBehaviour
         //wanderPos = 
 
         Vector2 pos = Random.insideUnitCircle * wanderRadius; //otetaan vektor 2, joka osoittaa random suuntaan
-
+        axis = pos.normalized;//axis....
 
         wanderPos = new Vector3(pos.x, transform.position.y, pos.y);
 
