@@ -266,6 +266,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6779643598358609440, guid: 61bb78648bacff44ea86f791f56c90c4,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7133915406969041365, guid: 61bb78648bacff44ea86f791f56c90c4,
         type: 3}
       propertyPath: m_Name
@@ -280,6 +285,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1337959695}
     m_Modifications:
+    - target: {fileID: -5779947176922775491, guid: 075ed3699dda1594a8ce3ff9593b017a,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1318557828458278840, guid: 075ed3699dda1594a8ce3ff9593b017a,
         type: 3}
       propertyPath: m_RootOrder
@@ -404,6 +414,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6779643598358609440, guid: 61bb78648bacff44ea86f791f56c90c4,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7133915406969041365, guid: 61bb78648bacff44ea86f791f56c90c4,
         type: 3}
       propertyPath: m_Name
@@ -418,6 +433,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1337959695}
     m_Modifications:
+    - target: {fileID: -5779947176922775491, guid: 075ed3699dda1594a8ce3ff9593b017a,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1318557828458278840, guid: 075ed3699dda1594a8ce3ff9593b017a,
         type: 3}
       propertyPath: m_RootOrder
@@ -723,6 +743,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pikku kivi (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7981211266913859196, guid: 6f489c0803aae6841bc4a6f056b858e9,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 6f489c0803aae6841bc4a6f056b858e9,
         type: 3}
       propertyPath: m_RootOrder
@@ -840,6 +865,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pikku kivi (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7981211266913859196, guid: 6f489c0803aae6841bc4a6f056b858e9,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 6f489c0803aae6841bc4a6f056b858e9,
         type: 3}
@@ -1464,6 +1494,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6779643598358609440, guid: 61bb78648bacff44ea86f791f56c90c4,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7133915406969041365, guid: 61bb78648bacff44ea86f791f56c90c4,
         type: 3}
       propertyPath: m_Name
@@ -1488,6 +1523,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso kivi (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7981211266913859196, guid: ad332c43d72d0d74f8ddbea3b1d9adb2,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: ad332c43d72d0d74f8ddbea3b1d9adb2,
         type: 3}
@@ -1607,6 +1647,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779643598358609440, guid: 61bb78648bacff44ea86f791f56c90c4,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7133915406969041365, guid: 61bb78648bacff44ea86f791f56c90c4,
         type: 3}
@@ -1863,6 +1908,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779643598358609440, guid: 61bb78648bacff44ea86f791f56c90c4,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7133915406969041365, guid: 61bb78648bacff44ea86f791f56c90c4,
         type: 3}
@@ -6985,6 +7035,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: iso kivi (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7981211266913859196, guid: ad332c43d72d0d74f8ddbea3b1d9adb2,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: ad332c43d72d0d74f8ddbea3b1d9adb2,
         type: 3}
       propertyPath: m_RootOrder
@@ -7309,6 +7364,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1337959695}
     m_Modifications:
+    - target: {fileID: -5779947176922775491, guid: 075ed3699dda1594a8ce3ff9593b017a,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1318557828458278840, guid: 075ed3699dda1594a8ce3ff9593b017a,
         type: 3}
       propertyPath: m_RootOrder
