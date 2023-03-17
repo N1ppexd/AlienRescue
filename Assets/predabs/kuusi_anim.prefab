@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 3160710618598735387}
   - component: {fileID: 6779643598358609440}
   - component: {fileID: 2862819409185388703}
+  - component: {fileID: 5347288902208068764}
   m_Layer: 9
-  m_Name: kuusi_still
+  m_Name: kuusi_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 891ffba4851a73b4d9e39102030d258b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 88e50ed0fe189dd4a89ed57bd2f9906b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -99,3 +100,23 @@ CapsuleCollider:
   m_Height: 14.631753
   m_Direction: 1
   m_Center: {x: 0, y: 3.4841275, z: 0}
+--- !u!95 &5347288902208068764
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7133915406969041365}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 44019468d5fc460428a5105121a7f0b2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
