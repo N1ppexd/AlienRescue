@@ -25,8 +25,12 @@ public class BeamDetect : MonoBehaviour
 
         if (isBeingLifted)
         {
-            if (transform.position.y < ufo.transform.position.y)
+            if (transform.position.y < ufo.transform.position.y - 2)
                 rb.velocity = (ufo.position - transform.position) * pullForce; //liikutaan beamia kohti
+            else
+            {
+                isBeingLifted = false;
+            }
         }
     }
     private void OnTriggerEnter(Collider other)

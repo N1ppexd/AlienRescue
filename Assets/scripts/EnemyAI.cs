@@ -12,6 +12,8 @@ public class EnemyAI : MonoBehaviour
 
     private Vector3 wanderPos;
 
+    [SerializeField] private ParticleSystem bloodParticles; //veril‰isk‰....
+
     // Start is called before the first frame update
     void Start()
     {
@@ -52,6 +54,7 @@ public class EnemyAI : MonoBehaviour
     {
         if (!agent.enabled && collision.gameObject.CompareTag("ground")) //jos vihu ossuu maahan, eli on tippunut pois beamista, menee agentti taas p‰‰lle...
         {
+            bloodParticles.Play();
             agent.enabled = true;
             StartCoroutine(wanderRandomly());
         }
