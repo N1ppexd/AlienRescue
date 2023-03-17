@@ -33,6 +33,7 @@ public class BeamDetect : MonoBehaviour
             else
             {
                 isBeingLifted = false;
+
             }
         }
     }
