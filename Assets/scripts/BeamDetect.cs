@@ -40,7 +40,8 @@ public class BeamDetect : MonoBehaviour
     {
         if (other.gameObject.CompareTag("beam"))
         {
-            agent.enabled = false;//laitetaan agentti pois p‰‰lt‰
+            if(agent != null)
+                agent.enabled = false;//laitetaan agentti pois p‰‰lt‰
             isBeingLifted = true;
         }
         if (other.gameObject.CompareTag("ufo"))

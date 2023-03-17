@@ -780,6 +780,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f489c0803aae6841bc4a6f056b858e9, type: 3}
+--- !u!54 &639667267 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 445406212303704718, guid: 6f489c0803aae6841bc4a6f056b858e9,
+    type: 3}
+  m_PrefabInstance: {fileID: 639667266}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &683205733 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3160710618598735387, guid: 61bb78648bacff44ea86f791f56c90c4,
@@ -949,6 +955,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1834971688}
     m_Modifications:
+    - target: {fileID: 4585361379934495034, guid: 6f489c0803aae6841bc4a6f056b858e9,
+        type: 3}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 639667267}
     - target: {fileID: 6389732829530102583, guid: 6f489c0803aae6841bc4a6f056b858e9,
         type: 3}
       propertyPath: m_Name
@@ -1666,6 +1677,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 256
+  characterSprite: {fileID: 1509181275}
   bloodParticles: {fileID: 1505904398}
 --- !u!4 &1349584499
 Transform:
