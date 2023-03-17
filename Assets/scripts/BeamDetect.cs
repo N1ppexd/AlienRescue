@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -13,6 +14,8 @@ public class BeamDetect : MonoBehaviour
     private Transform ufo;
 
     [SerializeField] private NavMeshAgent agent; //ai agentti laitetaan pois ku beami ossuu...
+
+    [SerializeField] private bool isUfo;//jos false, ei mene ufon sisään...
 
     private void Awake()
     {
@@ -42,7 +45,10 @@ public class BeamDetect : MonoBehaviour
         }
         if (other.gameObject.CompareTag("ufo"))
         {
-            Destroy(gameObject);//tämä on ihan täyttä paskaa mutta nytte teen vaa tämmösen joka toimii jotenki
+            if (!isUfo)
+                isBeingLifted = false;
+            if(isUfo)
+                Destroy(gameObject);//tämä on ihan täyttä paskaa mutta nytte teen vaa tämmösen joka toimii jotenki
         }
     }
 
