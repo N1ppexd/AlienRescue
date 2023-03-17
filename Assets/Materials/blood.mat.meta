@@ -1,8 +1,15 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Materials/blood.mat.meta
 guid: 7e86d5361d813fb408b74f8739ee7509
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000
+========
+guid: 4fb35fe57804cc44b9e11203e355572a
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+>>>>>>>> 5b827a37d44dad7e484795b2a91166b8dfd53ad9:Assets/Fonts.meta
   userData: 
   assetBundleName: 
   assetBundleVariant: 
