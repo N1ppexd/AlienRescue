@@ -10,6 +10,7 @@ public class BeamController : MonoBehaviour
 
 
     [SerializeField] private GameObject beam;
+    [SerializeField] private AudioSource beamAudio;//t‰m‰ ‰‰ni tulee beamista...
 
     [SerializeField] private float beamMaxDistance = 10, beamAngleMin, beamAngleMax, pullForce = 1000;
     [SerializeField] LayerMask interactableObjects;
@@ -29,10 +30,12 @@ public class BeamController : MonoBehaviour
         if (isEnabled)
         {
             beam.SetActive(true);
+            beamAudio.Play();
         }
         else if (!isEnabled)
         {
             beam.SetActive(false);
+            beamAudio.Stop();
         }
 
     }
