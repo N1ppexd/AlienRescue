@@ -1724,7 +1724,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   characterSprite: {fileID: 1509181275}
-  doKill: 1
+  doKill: 0
   bloodParticles: {fileID: 1505904398}
   anim: {fileID: 1509181276}
 --- !u!4 &1349584499
@@ -1799,7 +1799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1349584500}
-  pullForce: 50
+  pullForce: 20
   agent: {fileID: 1349584504}
   isUfo: 0
 --- !u!195 &1349584504
