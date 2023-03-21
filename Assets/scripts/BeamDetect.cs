@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.AI;
@@ -28,8 +29,8 @@ public class BeamDetect : MonoBehaviour
 
         if (isBeingLifted)
         {
-            if (transform.position.y < ufo.transform.position.y - 2)
-                rb.velocity = (ufo.position - transform.position) * pullForce; //liikutaan beamia kohti
+            if (transform.position.y < ufo.transform.position.y - 3)
+                PullAlien();
             else
             {
                 isBeingLifted = false;
@@ -37,6 +38,17 @@ public class BeamDetect : MonoBehaviour
             }
         }
     }
+
+    private void PullAlien()
+    {
+        //rb.velocity = (ufo.position - transform.position) * pullForce; //liikutaan beamia kohti tapa 1
+
+        Vector3 ufoVector = (ufo.position - transform.position).normalized; //vektori, joka osoittaa ufoa kohti, jos se sijoitetaan tähän...
+
+        rb.MovePosition(transform.position + ufoVector * pullForce * Time.deltaTime);    
+
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("beam"))
