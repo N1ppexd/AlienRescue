@@ -18,10 +18,19 @@ public class UfoMovement : MonoBehaviour
     private void Awake()
     {
         inputMaster = new InputMaster();
-        inputMaster.Enable();
 
         inputMaster.Player.Move.performed += ctx => inputAxis = ctx.ReadValue<Vector2>();
         inputMaster.Player.Move.canceled += ctx => inputAxis = ctx.ReadValue<Vector2>();
+    }
+
+    private void OnEnable()
+    {
+        inputMaster.Enable();
+    }
+
+    private void OnDisable()
+    {
+        inputMaster.Disable();
     }
 
     //liikkumishomma alhaalla
