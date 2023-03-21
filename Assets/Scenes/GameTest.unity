@@ -3160,7 +3160,7 @@ PrefabInstance:
     - target: {fileID: 2478933209743379095, guid: aca0ed7a77668d145ae28c69c17fa746,
         type: 3}
       propertyPath: m_Name
-      value: person2
+      value: julia
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aca0ed7a77668d145ae28c69c17fa746, type: 3}
@@ -3174,7 +3174,7 @@ PrefabInstance:
     - target: {fileID: 5355387916458536931, guid: 54897422db6dfe643be274069417aa0c,
         type: 3}
       propertyPath: m_Name
-      value: person
+      value: jeb
       objectReference: {fileID: 0}
     - target: {fileID: 5355387916458536958, guid: 54897422db6dfe643be274069417aa0c,
         type: 3}
