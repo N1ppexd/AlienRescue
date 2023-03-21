@@ -49,18 +49,18 @@ Material:
     m_Ints: []
     m_Floats:
     - _Alpha: 0.24
-    - _Ambient_Occulsion: 1
-    - _BottomStrength: 1.01
+    - _Ambient_Occulsion: 0
+    - _BottomStrength: 1
     - _Metallic: 0
-    - _NoiseScale: 500
+    - _NoiseScale: 600
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RippleAmount: 1.2
+    - _RippleAmount: 3.3
     - _Smoothness: 0
-    - _voronoiSpeed: 1
+    - _voronoiSpeed: 4
     m_Colors:
     - _RippleColor: {r: 0.100124545, g: 0.8490566, b: 0.100124545, a: 0}
-    - _RippleColorEmmision: {r: 0, g: 2.9960785, b: 0.03137255, a: 1}
+    - _RippleColorEmmision: {r: 0, g: 5.992157, b: 0.0627451, a: 1}
     - _RippleSpeed: {r: 0, g: 0.08, b: 0, a: 0}
     - _remapMaxBottom: {r: 0, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
