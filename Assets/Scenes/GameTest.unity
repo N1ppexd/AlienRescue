@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.15419188, g: 0.1981132, b: 0.16961092, a: 1}
+  m_FogColor: {r: 0.18578678, g: 0.18796338, b: 0.23584908, a: 1}
   m_FogMode: 1
   m_FogDensity: -0
   m_LinearFogStart: 0
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.05209446, g: 0.06257802, b: 0.07879997, a: 1}
+  m_IndirectSpecularColor: {r: 0.022780333, g: 0.025522381, b: 0.039882034, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -158,7 +158,7 @@ PrefabInstance:
     - target: {fileID: 7135328446425203173, guid: ad7dcbebc24f00f4ea6c751445afa4a6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.974778
+      value: 7.49
       objectReference: {fileID: 0}
     - target: {fileID: 7135328446425203173, guid: ad7dcbebc24f00f4ea6c751445afa4a6,
         type: 3}
