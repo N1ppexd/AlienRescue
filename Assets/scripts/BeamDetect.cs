@@ -49,6 +49,8 @@ public class BeamDetect : MonoBehaviour
 
         Vector3 ufoVector = ((ufo.position- (ufo.transform.up * 3)) - transform.position).normalized; //vektori, joka osoittaa ufoa kohti, jos se sijoitetaan tähän...
 
+        if (isUfo)
+            ufoVector = (ufo.position - transform.position).normalized;
         rb.MovePosition(transform.position + ufoVector * pullForce * Time.deltaTime);    
 
     }
