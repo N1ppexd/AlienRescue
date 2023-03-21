@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 8508905974426641202}
-  pullForce: 30
+  pullForce: 10
   agent: {fileID: 0}
   isUfo: 0
 --- !u!54 &8508905974426641202
