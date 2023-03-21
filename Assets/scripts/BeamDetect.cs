@@ -29,7 +29,7 @@ public class BeamDetect : MonoBehaviour
 
         if (isBeingLifted)
         {
-            if (transform.position.y < ufo.transform.position.y - 3)
+            if (transform.position.y <= ufo.transform.position.y - 3)
                 PullAlien();
             else
             {
@@ -47,7 +47,7 @@ public class BeamDetect : MonoBehaviour
         if (rb.useGravity)
             rb.useGravity = false;
 
-        Vector3 ufoVector = (ufo.position - transform.position).normalized; //vektori, joka osoittaa ufoa kohti, jos se sijoitetaan tähän...
+        Vector3 ufoVector = ((ufo.position- (ufo.transform.up * 3)) - transform.position).normalized; //vektori, joka osoittaa ufoa kohti, jos se sijoitetaan tähän...
 
         rb.MovePosition(transform.position + ufoVector * pullForce * Time.deltaTime);    
 
