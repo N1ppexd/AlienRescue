@@ -30,7 +30,7 @@ public class GamePauser : MonoBehaviour
     }
 
 
-    private void PauseScreen()
+    public void PauseScreen()
     {
         if(pauseState)
             pauseState = false;
@@ -48,11 +48,5 @@ public class GamePauser : MonoBehaviour
             Time.timeScale = 1.0f;
         }
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
