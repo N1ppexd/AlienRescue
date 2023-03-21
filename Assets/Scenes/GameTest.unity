@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.15864186, g: 0.19753471, b: 0.21698111, a: 1}
+  m_FogColor: {r: 0.15419188, g: 0.1981132, b: 0.16961092, a: 1}
   m_FogMode: 1
   m_FogDensity: -0
   m_LinearFogStart: 0
@@ -739,6 +739,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad332c43d72d0d74f8ddbea3b1d9adb2, type: 3}
+--- !u!1 &299728779 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3470364476718229092, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1040033150}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &310875541 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1318557828458278840, guid: 075ed3699dda1594a8ce3ff9593b017a,
@@ -2818,7 +2824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 299728779}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &2042891420
