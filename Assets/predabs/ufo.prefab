@@ -15626,7 +15626,7 @@ GameObject:
   - component: {fileID: 3666064789992844025}
   - component: {fileID: 382701609162384732}
   - component: {fileID: 2498185371830505878}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: beam_temporary
   m_TagString: beam
   m_Icon: {fileID: 0}
