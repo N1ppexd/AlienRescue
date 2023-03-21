@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class BeamDetect : MonoBehaviour
 {
 
-    private bool isBeingLifted;
+    private bool isBeingLifted, stay; //stay ons siihen, kun osutaan beamiin
     [SerializeField] private Rigidbody rb;
     [SerializeField] private float pullForce;
 
@@ -23,21 +24,20 @@ public class BeamDetect : MonoBehaviour
         ufo = GameObject.Find("ufo").transform;
     }
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (ufo == null) return;
 
-        if (isBeingLifted)
+        if (stay)
         {
-            if (transform.position.y <= ufo.transform.position.y - 3)
-                PullAlien();
-            else
-            {
-                isBeingLifted = false;
-
-            }
+            isBeingLifted = true;
+            PullAlien();
+            stay = false;
         }
         else
+            isBeingLifted = false;
+
+        if (!isBeingLifted)
             rb.useGravity = true;
     }
 
@@ -57,15 +57,15 @@ public class BeamDetect : MonoBehaviour
     {
         if (other.gameObject.CompareTag("beam"))
         {
-            if(agent != null)
-                agent.enabled = false;//laitetaan agentti pois päältä
+            if (agent != null) agent.enabled = false;
+            
             isBeingLifted = true;
         }
         if (other.gameObject.CompareTag("ufo"))
         {
             if (!isUfo)
                 isBeingLifted = false;
-            if(isUfo)
+            if (isUfo)
                 Destroy(gameObject);//tämä on ihan täyttä paskaa mutta nytte teen vaa tämmösen joka toimii jotenki
         }
     }
@@ -75,6 +75,14 @@ public class BeamDetect : MonoBehaviour
         if (other.gameObject.CompareTag("beam"))
         {
             isBeingLifted = false;
+        }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.CompareTag("beam"))
+        {
+            stay = true;
         }
     }
 }
