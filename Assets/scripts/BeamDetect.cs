@@ -68,7 +68,11 @@ public class BeamDetect : MonoBehaviour
             if (!isUfo)
                 isBeingLifted = false;
             if (isUfo)
+            {
+                GameManager.instance.UpdateAlienCounter();
                 Destroy(gameObject);//tämä on ihan täyttä paskaa mutta nytte teen vaa tämmösen joka toimii jotenki
+            }
+               
         }
     }
 
