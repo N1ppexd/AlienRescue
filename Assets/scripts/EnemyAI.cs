@@ -16,6 +16,10 @@ public class EnemyAI : MonoBehaviour
     private Vector2 axis; //k‰ytet‰‰n siihen, ett‰ sprite katsoo menosuuntaan...
     private Vector3 wanderPos;
 
+    [SerializeField] private bool doKill; //jos true, hahmo kuolee...
+
+    
+
     [SerializeField] private ParticleSystem bloodParticles; //veril‰isk‰....
 
 
@@ -71,9 +75,35 @@ public class EnemyAI : MonoBehaviour
     {
         if (!agent.enabled && collision.gameObject.CompareTag("ground")) //jos vihu ossuu maahan, eli on tippunut pois beamista, menee agentti taas p‰‰lle...
         {
-            bloodParticles.Play();
+
+            if (doKill && isFlying) //paskaa koodia, mutta toimii
+            {
+                bloodParticles.Play();
+                characterSprite.gameObject.SetActive(false);
+                return;
+            }
+            
+            isFlying = false;
             agent.enabled = true;
             StartCoroutine(wanderRandomly());
         }
+    }
+
+    private bool isFlying;
+
+    private void OnCollisionExit()
+    {
+        StartCoroutine(waitLeaveGround());
+    }
+
+    IEnumerator waitLeaveGround()
+    {
+        yield return new WaitForSeconds(0.2f);
+        isFlying = true;
+    }
+    IEnumerator killCharacter()
+    {
+        yield return new WaitForSeconds(1);
+        Destroy(gameObject);
     }
 }
