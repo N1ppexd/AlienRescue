@@ -9,6 +9,7 @@ TagManager:
   - ground
   - tree
   - spawnpoint
+  - alien
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - ground
   - obstacle
   - beam
-  - 
+  - alien
   - 
   - 
   - 

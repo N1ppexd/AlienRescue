@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class SpawnAliens : MonoBehaviour
 {
+
+    [SerializeField] private GameObject alienPrefab;//alieni jota spawnataan..
+
+    private GameObject[] spawnPoints; //spawnpoint kohdat, joihin alienit voi spawnata...
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        spawnPoints = GameObject.FindGameObjectsWithTag("spawnpoint");
+
+        Spawn();
     }
 
-    // Update is called once per frame
-    void Update()
+    void Spawn()
     {
-        
+        foreach(GameObject spawnPoint in spawnPoints)
+        {
+            Instantiate(alienPrefab, spawnPoint.transform.position, spawnPoint.transform.rotation);
+        }
     }
 }
