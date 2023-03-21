@@ -50,9 +50,9 @@ Material:
     m_Floats:
     - _Alpha: 0.24
     - _Ambient_Occulsion: 1
-    - _BottomStrength: 3
+    - _BottomStrength: 3.16
     - _Metallic: 0
-    - _NoiseScale: 600
+    - _NoiseScale: 100
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RippleAmount: 3.3
@@ -62,5 +62,5 @@ Material:
     - _RippleColor: {r: 0.100124545, g: 0.8490566, b: 0.100124545, a: 0}
     - _RippleColorEmmision: {r: 0, g: 5.992157, b: 0.0627451, a: 1}
     - _RippleSpeed: {r: 0, g: 0.08, b: 0, a: 0}
-    - _remapMaxBottom: {r: 0, g: 3, b: 0, a: 0}
+    - _remapMaxBottom: {r: 0, g: 15, b: 0, a: 0}
   m_BuildTextureStacks: []
