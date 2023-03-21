@@ -57,7 +57,7 @@ Material:
     - _QueueOffset: 0
     - _RippleAmount: 3.3
     - _Smoothness: 0
-    - _voronoiSpeed: 4
+    - _voronoiSpeed: 5
     m_Colors:
     - _RippleColor: {r: 0.100124545, g: 0.8490566, b: 0.100124545, a: 0}
     - _RippleColorEmmision: {r: 0, g: 5.992157, b: 0.0627451, a: 1}
