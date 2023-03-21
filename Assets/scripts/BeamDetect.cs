@@ -37,11 +37,15 @@ public class BeamDetect : MonoBehaviour
 
             }
         }
+        else
+            rb.useGravity = false;
     }
 
     private void PullAlien()
     {
         //rb.velocity = (ufo.position - transform.position) * pullForce; //liikutaan beamia kohti tapa 1
+        if (rb.useGravity)
+            rb.useGravity = false;
 
         Vector3 ufoVector = (ufo.position - transform.position).normalized; //vektori, joka osoittaa ufoa kohti, jos se sijoitetaan tähän...
 
