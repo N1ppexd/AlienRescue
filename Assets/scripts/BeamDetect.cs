@@ -38,7 +38,7 @@ public class BeamDetect : MonoBehaviour
             }
         }
         else
-            rb.useGravity = false;
+            rb.useGravity = true;
     }
 
     private void PullAlien()
