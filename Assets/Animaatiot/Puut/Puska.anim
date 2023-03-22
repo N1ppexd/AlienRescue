@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ruohotupsu
+  m_Name: Puska
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,11 +20,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: e306c65ddb194a84982ccdd831ab6f0f, type: 3}
+      value: {fileID: 21300000, guid: 33a3543e0cca32a4699ce725d4bff4f6, type: 3}
     - time: 0.33333334
-      value: {fileID: 21300000, guid: 47fcc211643c5cc4eaa86045760116eb, type: 3}
+      value: {fileID: 21300000, guid: 9b2f252298ab6644d90dd5ebda343368, type: 3}
     - time: 0.6666667
-      value: {fileID: 21300000, guid: e306c65ddb194a84982ccdd831ab6f0f, type: 3}
+      value: {fileID: 21300000, guid: 1ab94baa673790a4b96b3ae275f656f1, type: 3}
+    - time: 1
+      value: {fileID: 21300000, guid: 33a3543e0cca32a4699ce725d4bff4f6, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -44,15 +46,16 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: e306c65ddb194a84982ccdd831ab6f0f, type: 3}
-    - {fileID: 21300000, guid: 47fcc211643c5cc4eaa86045760116eb, type: 3}
-    - {fileID: 21300000, guid: e306c65ddb194a84982ccdd831ab6f0f, type: 3}
+    - {fileID: 21300000, guid: 33a3543e0cca32a4699ce725d4bff4f6, type: 3}
+    - {fileID: 21300000, guid: 9b2f252298ab6644d90dd5ebda343368, type: 3}
+    - {fileID: 21300000, guid: 1ab94baa673790a4b96b3ae275f656f1, type: 3}
+    - {fileID: 21300000, guid: 33a3543e0cca32a4699ce725d4bff4f6, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.68333334
+    m_StopTime: 1.0166667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
