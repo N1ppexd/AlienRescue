@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 9107028841675176176}
   - component: {fileID: 7981211266913859196}
-  - component: {fileID: 8766118896474551174}
-  - component: {fileID: 8508905974426641202}
-  - component: {fileID: 423913864578418693}
-  - component: {fileID: 2443471328541709806}
+  - component: {fileID: 4585361379934495034}
+  - component: {fileID: 445406212303704718}
+  - component: {fileID: 8789378269836090598}
+  - component: {fileID: 8210546221157824377}
   m_Layer: 9
-  m_Name: iso kivi
+  m_Name: pikku kivi 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6389732829530102583}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.113}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9b282e468f25b3e47bf242277d861baf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 26073d0175e663148a5bb6bdd89dad72, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -88,7 +88,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8766118896474551174
+--- !u!114 &4585361379934495034
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -100,11 +100,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4843fa87288e3e44086319df19b6e53f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 8508905974426641202}
-  pullForce: 3
+  rb: {fileID: 445406212303704718}
+  pullForce: 20
   agent: {fileID: 0}
   isUfo: 0
---- !u!54 &8508905974426641202
+--- !u!54 &445406212303704718
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,7 +120,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!65 &423913864578418693
+--- !u!65 &8789378269836090598
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,9 +131,9 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.01, y: 2.273968, z: 2.56}
-  m_Center: {x: 0, y: 1.136984, z: 0}
---- !u!65 &2443471328541709806
+  m_Size: {x: 2.42, y: 1.63, z: 1.11}
+  m_Center: {x: 0.04, y: 1.06, z: 0}
+--- !u!65 &8210546221157824377
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,5 +144,5 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.01, y: 2.760828, z: 0.2}
-  m_Center: {x: 0, y: 1.380414, z: 0}
+  m_Size: {x: 2.28, y: 2.38, z: 0.2}
+  m_Center: {x: 0.01, y: 0.61, z: 0}

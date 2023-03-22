@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8508905974426641202}
   - component: {fileID: 423913864578418693}
   - component: {fileID: -460700541844893255}
+  - component: {fileID: 2467457251466640862}
   m_Layer: 9
   m_Name: puska
   m_TagString: Untagged
@@ -101,7 +102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 8508905974426641202}
-  pullForce: 5
+  pullForce: 1
   agent: {fileID: 0}
   isUfo: 0
 --- !u!54 &8508905974426641202
@@ -146,3 +147,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 7.8, y: 3.84, z: 0.2}
   m_Center: {x: 0, y: 1.99, z: 0}
+--- !u!95 &2467457251466640862
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6389732829530102583}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 92afeb8447f9bab43bc83dbf4ec36a53, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
