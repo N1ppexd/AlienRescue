@@ -5814,6 +5814,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fog_ps
       objectReference: {fileID: 0}
+    - target: {fileID: 1256253057622262937, guid: 12fd3c0090102d34aa5c17f63419cb33,
+        type: 3}
+      propertyPath: prewarm
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1256253057622262938, guid: 12fd3c0090102d34aa5c17f63419cb33,
         type: 3}
       propertyPath: m_RootOrder
