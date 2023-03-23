@@ -2020,6 +2020,7 @@ MonoBehaviour:
   levelDuration: 60
   aliensToCapture: 0
   ajastin: {fileID: 288184861}
+  lostScreen: {fileID: 1040033151}
   aliensCaptured: 0
 --- !u!4 &811386840
 Transform:
@@ -2981,6 +2982,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c587c8e38618d94b9d7d2133b7ccffe, type: 3}
+--- !u!1 &1040033151 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5134433484305789709, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1040033150}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1056975398
 PrefabInstance:
   m_ObjectHideFlags: 0
