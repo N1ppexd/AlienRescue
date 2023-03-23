@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private Slider ajastin; //tämä liikkuu nollaan....
 
+    [SerializeField] private GameObject lostScreen;
+
     private void Awake()
     {
         if (instance == null)
@@ -39,6 +41,8 @@ public class GameManager : MonoBehaviour
         if(levelDuration <= 0)
         {
             Debug.Log("KUOLIT!!!!");
+            lostScreen.SetActive(true);
+            Time.timeScale = 0f;
         }
 
     }
