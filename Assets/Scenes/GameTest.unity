@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.09433961, g: 0.09433961, b: 0.09433961, a: 1}
+  m_FogColor: {r: 0.08198285, g: 0.070398726, b: 0.13207549, a: 1}
   m_FogMode: 1
   m_FogDensity: -0
   m_LinearFogStart: -70
@@ -5892,41 +5892,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: fog_ps
       objectReference: {fileID: 0}
-    - target: {fileID: 1256253057622262937, guid: 12fd3c0090102d34aa5c17f63419cb33,
-        type: 3}
-      propertyPath: prewarm
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1256253057622262937, guid: 12fd3c0090102d34aa5c17f63419cb33,
-        type: 3}
-      propertyPath: ShapeModule.m_Scale.y
-      value: 14.63
-      objectReference: {fileID: 0}
-    - target: {fileID: 1256253057622262937, guid: 12fd3c0090102d34aa5c17f63419cb33,
-        type: 3}
-      propertyPath: InitialModule.maxNumParticles
-      value: 10000
-      objectReference: {fileID: 0}
-    - target: {fileID: 1256253057622262937, guid: 12fd3c0090102d34aa5c17f63419cb33,
-        type: 3}
-      propertyPath: InitialModule.startSize.scalar
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 1256253057622262937, guid: 12fd3c0090102d34aa5c17f63419cb33,
-        type: 3}
-      propertyPath: InitialModule.startSizeY.scalar
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 1256253057622262937, guid: 12fd3c0090102d34aa5c17f63419cb33,
-        type: 3}
-      propertyPath: InitialModule.startSizeZ.scalar
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 1256253057622262937, guid: 12fd3c0090102d34aa5c17f63419cb33,
-        type: 3}
-      propertyPath: EmissionModule.rateOverTime.scalar
-      value: 700
-      objectReference: {fileID: 0}
     - target: {fileID: 1256253057622262938, guid: 12fd3c0090102d34aa5c17f63419cb33,
         type: 3}
       propertyPath: m_RootOrder
@@ -6129,6 +6094,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: julia
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478933210462185948, guid: aca0ed7a77668d145ae28c69c17fa746,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478933210462185950, guid: aca0ed7a77668d145ae28c69c17fa746,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aca0ed7a77668d145ae28c69c17fa746, type: 3}
