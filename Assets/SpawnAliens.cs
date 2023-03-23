@@ -10,7 +10,7 @@ public class SpawnAliens : MonoBehaviour
     private GameObject[] spawnPoints; //spawnpoint kohdat, joihin alienit voi spawnata...
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         spawnPoints = GameObject.FindGameObjectsWithTag("spawnpoint");
 

@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private Slider ajastin; //tämä liikkuu nollaan....
 
-    [SerializeField] private GameObject lostScreen;
+    [SerializeField] private GameObject lostScreen, winScreen;
 
     private void Awake()
     {
@@ -25,11 +25,15 @@ public class GameManager : MonoBehaviour
         }
         else if (instance != null)
             Destroy(this);
+
+        
     }
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        aliensToCapture = GameObject.FindGameObjectsWithTag("alien").Length;
     }
 
     // Update is called once per frame
@@ -52,5 +56,11 @@ public class GameManager : MonoBehaviour
     {
         aliensCaptured++;
         alienCounterText.text = aliensCaptured.ToString();
+
+        if(aliensCaptured >= aliensToCapture)
+        {
+            winScreen.SetActive(true);
+            Time.timeScale = 0;
+        }
     }
 }
