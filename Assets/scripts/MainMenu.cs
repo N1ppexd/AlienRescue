@@ -8,6 +8,11 @@ public class MainMenu : MonoBehaviour
 
     [SerializeField] private GameObject settingsPanel;//laitetaan p‰‰lle, kun painetaan settings nappia....
 
+    private void Awake()
+    {
+        Time.timeScale = 1;
+    }
+
     public void PlayGame() //kun painetaan play nappia
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);//ladataan seuraava scene, eli peli
