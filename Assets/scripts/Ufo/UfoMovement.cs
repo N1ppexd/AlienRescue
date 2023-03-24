@@ -43,6 +43,7 @@ public class UfoMovement : MonoBehaviour
         movementAxis = new Vector3(axis.x, 0, axis.y);
 
         rb.velocity = movementAxis.normalized * speed; //lis‰t‰‰n noppeus...
+        //rb.AddForce(movementAxis.normalized * speed * 100 * Time.deltaTime); //lis‰t‰‰n noppeus...
 
     }
     #endregion
