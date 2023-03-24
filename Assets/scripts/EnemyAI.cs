@@ -25,6 +25,9 @@ public class EnemyAI : MonoBehaviour
 
     [SerializeField] private Animator anim;
 
+    [SerializeField] private Transform valokeila;//valokeila transform....
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,12 +38,17 @@ public class EnemyAI : MonoBehaviour
 
     private void FixedUpdate()
     {
-
-        //  HUOM: pitää laittaa vielä niin, että jos menee y akselilla enemmän kuin x:llä, 
-        //niin se animaatio muuttuu siihen, että selkä on tähän suuntaan, ja toisinpäin myös
-
         anim.SetFloat("x", axis.x);
         anim.SetFloat("y", axis.y);
+
+        if(axis.x > Mathf.Abs(axis.y))
+        {
+            valokeila.transform.localScale = new Vector3(-1, 1, 1);
+        }
+        else if (valokeila.transform.localScale.x < 0)
+        {
+            valokeila.transform.localScale = new Vector3(1, 1, 1);
+        }
     }
 
     IEnumerator wanderRandomly()
