@@ -15429,6 +15429,7 @@ GameObject:
   - component: {fileID: 1582815949017681898}
   - component: {fileID: 2474887619646488655}
   - component: {fileID: 413317848146539653}
+  - component: {fileID: 7439212257990748961}
   m_Layer: 0
   m_Name: Lautanen
   m_TagString: Untagged
@@ -15501,6 +15502,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!95 &7439212257990748961
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2214814530279953744}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 431e37ca41991b24a8e8bb73afa5e304, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &3026470328285195989
 GameObject:
   m_ObjectHideFlags: 0

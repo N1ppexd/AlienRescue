@@ -45,6 +45,8 @@ public class UfoMovement : MonoBehaviour
         rb.velocity = movementAxis.normalized * speed; //lis‰t‰‰n noppeus...
         //rb.AddForce(movementAxis.normalized * speed * 100 * Time.deltaTime); //lis‰t‰‰n noppeus...
 
+        //transform.GetChild(0).LookAt(transform.position + rb.velocity, Vector3.left);
+
     }
     #endregion
 
