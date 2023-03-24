@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
 
+    [SerializeField] private GameObject settingsPanel;//laitetaan p‰‰lle, kun painetaan settings nappia....
+
     public void PlayGame() //kun painetaan play nappia
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);//ladataan seuraava scene, eli peli
@@ -14,5 +16,10 @@ public class MainMenu : MonoBehaviour
     public void QuitGame()  //kun painetaan Quit Game nappia
     {
         Application.Quit();
+    }
+
+    public void Settings()
+    {
+        settingsPanel.SetActive(true);
     }
 }
