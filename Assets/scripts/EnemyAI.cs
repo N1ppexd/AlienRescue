@@ -41,11 +41,11 @@ public class EnemyAI : MonoBehaviour
         anim.SetFloat("x", axis.x);
         anim.SetFloat("y", axis.y);
 
-        if(axis.x > Mathf.Abs(axis.y))
+        if(axis.x > 0)
         {
             valokeila.transform.localScale = new Vector3(-1, 1, 1);
         }
-        else if (valokeila.transform.localScale.x < 0)
+        else
         {
             valokeila.transform.localScale = new Vector3(1, 1, 1);
         }
