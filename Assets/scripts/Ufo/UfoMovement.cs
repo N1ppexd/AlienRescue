@@ -10,6 +10,7 @@ public class UfoMovement : MonoBehaviour
 
     [SerializeField] private Rigidbody rb;  //ufon rigidbody...
 
+    [SerializeField] private float tiltAmount, smoothSpeed = 6f;//angle jolla kallistutaan...
 
     private Vector2 inputAxis;
     private Vector3 movementAxis;
@@ -45,8 +46,8 @@ public class UfoMovement : MonoBehaviour
         rb.velocity = movementAxis.normalized * speed; //lis‰t‰‰n noppeus...
         //rb.AddForce(movementAxis.normalized * speed * 100 * Time.deltaTime); //lis‰t‰‰n noppeus...
 
-        //transform.GetChild(0).LookAt(transform.position + rb.velocity, Vector3.left);
-
+        Quaternion rotation = Quaternion.Euler(Vector3.Cross(transform.up, rb.velocity.normalized) * tiltAmount);
+        transform.GetChild(0).rotation = Quaternion.Slerp(transform.rotation, rotation, smoothSpeed);
     }
     #endregion
 
