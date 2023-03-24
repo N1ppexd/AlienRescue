@@ -27,12 +27,17 @@ public class EnemyAI : MonoBehaviour
 
     [SerializeField] private Transform valokeila;//valokeila transform....
 
+    [SerializeField] private GameObject ufo; //ufo objekti...
+
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        if(agent != null)
-            StartCoroutine(wanderRandomly());
+        if (agent is null)
+            return;
+        StartCoroutine(wanderRandomly());
+        ufo = GameObject.Find("ufo");
+
     }
 
 
@@ -49,6 +54,50 @@ public class EnemyAI : MonoBehaviour
         {
             valokeila.transform.localScale = new Vector3(1, 1, 1);
         }
+
+        LookForUfo();
+    }
+
+    [SerializeField] private float maxDistanceToUfo = 10;
+    private bool isSeen;
+    private void LookForUfo()
+    {
+        Vector3 u = ufo.transform.position - transform.position; //tämä on vektori, joka osoittaa ufoa kohti vihusta....
+        u.y = transform.position.y;
+        float uLength = u.magnitude; //otetaan tämä, jotta saadaan selville, kuinka kaukana ufo on vihollisesta..
+        u = u.normalized;   //normalisoidaan, jotta saadaan vain suuntavektori.
+
+
+        if(u.x > 0 && axis.x > 0 && !isSeen)
+        {
+            if(uLength <= maxDistanceToUfo)
+            {
+                isSeen = true;
+                StartCoroutine(takeTimeOff());   
+            }
+        }
+        else if (u.x <= 0 && axis.x <= 0 && !isSeen)
+        {
+            if (uLength <= maxDistanceToUfo)
+            {
+                isSeen=true;
+                StartCoroutine(takeTimeOff());
+            }
+        }
+    }
+
+    IEnumerator takeTimeOff()
+    {
+        agent.SetDestination(transform.position);
+        valokeila.GetChild(0).GetComponent<SpriteRenderer>().color = Color.red;
+        yield return new WaitForSeconds(0.4f);
+        Debug.Log("YOU HAVE BEEN SEEN IDIOT!");
+        GameManager.instance.levelDuration -= GameManager.instance.levelDuration / 10; //otetaan 10 prosenttia ajasta....
+
+        yield return new WaitForSeconds(0.1f);
+        valokeila.GetChild(0).GetComponent<SpriteRenderer>().color = Color.white;
+
+        isSeen = false;
     }
 
     IEnumerator wanderRandomly()

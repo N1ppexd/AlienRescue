@@ -9,7 +9,8 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     [SerializeField] private TextMeshProUGUI alienCounterText;
 
-    [SerializeField] private float levelDuration; //kuinka kauan kest‰‰, ett‰ leveli loppuu automaattisesti
+    public float levelDuration; //kuinka kauan kest‰‰, ett‰ leveli loppuu automaattisesti
+    public float maxLevelDuration;
 
     [SerializeField] private int aliensToCapture; //kuink amonta alienia pit‰‰ saada kiinni..
 
