@@ -16618,6 +16618,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.41662
       objectReference: {fileID: 0}
+    - target: {fileID: 5316245212143941088, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5316245212143941088, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000059365495
+      objectReference: {fileID: 0}
     - target: {fileID: 5443967038882895477, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
         type: 3}
       propertyPath: m_Name
@@ -19110,7 +19120,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: e27a13dda53b0004cbd16f267cced411, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
