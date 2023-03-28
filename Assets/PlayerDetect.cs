@@ -36,6 +36,11 @@ public class PlayerDetect : MonoBehaviour
     }
 
 
+    private void Update()
+    {
+        
+    }
+
     [SerializeField] private float maxDistanceToUfo = 5;
     private bool isSeen;
     IEnumerator LookForUfo()
@@ -52,6 +57,7 @@ public class PlayerDetect : MonoBehaviour
         
     }
     public Vector3 enemyAxis; //axis...
+
 
     public List<Transform> targets = new List<Transform>(); //targetit, jotka on vihollisen fovin sisällä.
     private void FOVCheck()
@@ -81,7 +87,7 @@ public class PlayerDetect : MonoBehaviour
             if(Vector3.Angle(lookDirTransform.position, targetDirVector) < viewAngle / 2)//jatetaan kahdella, koska niin
             {
                 
-                float distToTarget = Vector3.Distance(target.position, transform.position);
+                float distToTarget = Vector3.Distance(transform.position + targetDir, transform.position);
                 if (!Physics.Raycast(transform.position, targetDir, distToTarget, whatIsObstacle))//jos välissä ei ole esteitä
                 {
                     targets.Add(target);//lisätään ufo listaan..
