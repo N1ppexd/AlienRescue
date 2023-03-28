@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 745905606039677184}
   m_Layer: 9
   m_Name: ruohotupsu 3
-  m_TagString: Untagged
+  m_TagString: ruoho
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
