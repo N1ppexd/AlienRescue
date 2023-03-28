@@ -5150,6 +5150,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   characterSprite: {fileID: 5355387916332527318}
+  axis: {x: 0, y: 0}
   doKill: 0
   bloodParticles: {fileID: 5355387916331609731}
   anim: {fileID: 5355387916332527313}
@@ -5250,6 +5251,7 @@ MonoBehaviour:
   ufo: {fileID: 0}
   valokeila: {fileID: 7304643385885548676}
   agent: {fileID: 5355387916458536949}
+  enemyAi: {fileID: 5355387916458536930}
   seeRadius: 10
   seeHeightOffset: 0
   viewAngle: 90

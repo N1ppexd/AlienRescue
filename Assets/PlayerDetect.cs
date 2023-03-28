@@ -10,6 +10,8 @@ public class PlayerDetect : MonoBehaviour
     [SerializeField] private Transform valokeila;
     [SerializeField] private NavMeshAgent agent;
 
+    [SerializeField] private EnemyAI enemyAi;
+
     public float seeRadius;
     public float seeHeightOffset, viewAngle;
 
@@ -56,7 +58,11 @@ public class PlayerDetect : MonoBehaviour
             Vector3 targetDirVector = targetDir.normalized; //en tiedä tarvitaanko.... tämä on suuntavektori ufoon päin vihollisesta katsottuna....
             targetDirVector.y = 0;                          //laitetaan y nollaan... eli ei katsota ylöspäin...
 
-            if(Vector3.Angle(transform.position, targetDirVector) < viewAngle / 2)//jatetaan kahdella, koska niin
+
+            Vector3 enemyAxis = new Vector3(enemyAi.axis.x, 0, enemyAi.axis.y);
+            float playerRotation = Vector3.Angle(enemyAxis, transform.forward);
+
+            if(Vector3.Angle(transform.position, targetDirVector) < viewAngle - playerRotation / 2)//jatetaan kahdella, koska niin
             {
                 Debug.Log("HAAHAA OLET NÄKYVISSÄ....");
                 isSeen = true;
@@ -78,4 +84,14 @@ public class PlayerDetect : MonoBehaviour
 
         isSeen = false;
     }
+
+
+    public Vector3 dirFromAngle(float angleInDegrees, bool angleIsGlobal)
+    {
+        if (!angleIsGlobal)
+            angleInDegrees += transform.eulerAngles.y;
+        return new Vector3(Mathf.Sin(angleInDegrees * Mathf.Deg2Rad), 0, Mathf.Cos(angleInDegrees * Mathf.Deg2Rad));
+
+    }
+
 }
