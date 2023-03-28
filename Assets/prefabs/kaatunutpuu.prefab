@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8081159393514219133}
   m_Layer: 0
   m_Name: kaatunutpuu
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
