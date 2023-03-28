@@ -4885,6 +4885,7 @@ GameObject:
   - component: {fileID: 2478933209743379091}
   - component: {fileID: 2478933209743379088}
   - component: {fileID: 2478933209743379089}
+  - component: {fileID: 298008960980847788}
   m_Layer: 6
   m_Name: person2
   m_TagString: Untagged
@@ -4933,7 +4934,6 @@ MonoBehaviour:
   anim: {fileID: 2478933210462185951}
   valokeila: {fileID: 1266940129757952997}
   ufo: {fileID: 0}
-  maxDistanceToUfo: 10
 --- !u!54 &2478933209743379101
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5014,6 +5014,28 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &298008960980847788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2478933209743379095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bcf2b04b95338846ac714b1d53329be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ufo: {fileID: 0}
+  valokeila: {fileID: 1266940129757952997}
+  agent: {fileID: 2478933209743379089}
+  seeRadius: 10
+  seeHeightOffset: 0
+  viewAngle: 90
+  whatIsUfo:
+    serializedVersion: 2
+    m_Bits: 128
+  maxDistanceToUfo: 10
 --- !u!1 &2478933210462185949
 GameObject:
   m_ObjectHideFlags: 0
