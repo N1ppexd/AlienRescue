@@ -5106,6 +5106,7 @@ GameObject:
   - component: {fileID: 5355387916458536955}
   - component: {fileID: 5355387916458536954}
   - component: {fileID: 5355387916458536949}
+  - component: {fileID: 9026982630308426010}
   m_Layer: 6
   m_Name: person
   m_TagString: Untagged
@@ -5149,12 +5150,12 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   characterSprite: {fileID: 5355387916332527318}
+  axis: {x: 0, y: 0}
   doKill: 0
   bloodParticles: {fileID: 5355387916331609731}
   anim: {fileID: 5355387916332527313}
   valokeila: {fileID: 7304643385885548676}
   ufo: {fileID: 0}
-  maxDistanceToUfo: 10
 --- !u!54 &5355387916458536953
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5235,3 +5236,26 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &9026982630308426010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5355387916458536931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bcf2b04b95338846ac714b1d53329be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ufo: {fileID: 0}
+  valokeila: {fileID: 7304643385885548676}
+  agent: {fileID: 5355387916458536949}
+  enemyAi: {fileID: 5355387916458536930}
+  seeRadius: 10
+  seeHeightOffset: 0
+  viewAngle: 90
+  whatIsUfo:
+    serializedVersion: 2
+    m_Bits: 128
+  maxDistanceToUfo: 10
