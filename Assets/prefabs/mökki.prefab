@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: -2132402072981710261}
   m_Layer: 0
   m_Name: "m\xF6kki"
-  m_TagString: Untagged
+  m_TagString: rakennus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
