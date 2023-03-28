@@ -6784,7 +6784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   alienCounterText: {fileID: 1610355355}
   levelDuration: 60
-  maxLevelDuration: 0
+  maxLevelDuration: 60
   aliensToCapture: 0
   ajastin: {fileID: 288184861}
   lostScreen: {fileID: 1040033151}
