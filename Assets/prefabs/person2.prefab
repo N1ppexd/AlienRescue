@@ -5048,7 +5048,6 @@ MonoBehaviour:
   meshRenderer: {fileID: 8011917348093294224}
   normalMaterial: {fileID: 2100000, guid: 3734d529e52f049428a7e00672b43ec3, type: 2}
   redMaterial: {fileID: 2100000, guid: 7e86d5361d813fb408b74f8739ee7509, type: 2}
-  maxDistanceToUfo: 10
   enemyAxis: {x: 0, y: 0, z: 0}
   targets: []
 --- !u!1 &2478933210462185949
@@ -5171,7 +5170,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1266940129757952997
 Transform:
   m_ObjectHideFlags: 0
