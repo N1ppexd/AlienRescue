@@ -35,13 +35,15 @@ public class PlayerDetect : MonoBehaviour
         StartCoroutine(LookForUfo());
     }
 
+    public Vector3 enemyAxis; //axis...
 
-    private void Update()
+    private void LateUpdate()
     {
-        
+        enemyAxis = new Vector3(enemyAi.axis.x, 0, enemyAi.axis.y);
+        lookDirTransform.LookAt(transform.position + enemyAxis * 5);
+        DrawFieldOfView();
     }
 
-    [SerializeField] private float maxDistanceToUfo = 5;
     private bool isSeen;
     IEnumerator LookForUfo()
     {
@@ -56,7 +58,6 @@ public class PlayerDetect : MonoBehaviour
 
         
     }
-    public Vector3 enemyAxis; //axis...
 
 
     public List<Transform> targets = new List<Transform>(); //targetit, jotka on vihollisen fovin sisällä.
@@ -66,12 +67,9 @@ public class PlayerDetect : MonoBehaviour
         Vector3 lookPositionVector = lookDirTransform.position + transform.up * ufo.transform.position.y;
         Collider[] rangeChecks = Physics.OverlapSphere(lookPositionVector, seeRadius, whatIsUfo);
 
-        enemyAxis = new Vector3(enemyAi.axis.x, 0, enemyAi.axis.y);
+        
         //float playerRotation = Vector3.Angle(enemyAxis, transform.forward);
 
-        lookDirTransform.LookAt(transform.position + enemyAxis * 5);
-
-        DrawFieldOfView();
 
         if (rangeChecks.Length != 0)
         {
@@ -84,7 +82,7 @@ public class PlayerDetect : MonoBehaviour
 
             
 
-            if(Vector3.Angle(lookDirTransform.position, targetDirVector) < viewAngle / 2)//jatetaan kahdella, koska niin
+            if(Vector3.Angle(lookDirTransform.forward, targetDirVector) < viewAngle / 2)//jatetaan kahdella, koska niin
             {
                 
                 float distToTarget = Vector3.Distance(transform.position + targetDir, transform.position);
@@ -102,6 +100,8 @@ public class PlayerDetect : MonoBehaviour
             else
                 meshRenderer.material = normalMaterial;
         }
+        else
+            meshRenderer.material = normalMaterial;
     }
 
     IEnumerator takeTimeOff()
