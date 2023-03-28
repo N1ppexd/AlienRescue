@@ -4923,7 +4923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 2478933209743379089}
-  wanderRadius: 10
+  wanderRadius: 40
   groundMask:
     serializedVersion: 2
     m_Bits: 256
@@ -4932,6 +4932,8 @@ MonoBehaviour:
   bloodParticles: {fileID: 2478933209290011639}
   anim: {fileID: 2478933210462185951}
   valokeila: {fileID: 1266940129757952997}
+  ufo: {fileID: 0}
+  maxDistanceToUfo: 10
 --- !u!54 &2478933209743379101
 Rigidbody:
   m_ObjectHideFlags: 0

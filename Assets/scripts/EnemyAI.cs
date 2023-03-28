@@ -105,7 +105,7 @@ public class EnemyAI : MonoBehaviour
         while (true)
         {
             Wander();
-            yield return new WaitForSeconds(Random.Range(1, 5));
+            yield return new WaitForSeconds(Random.Range(5, 15));
         }
     }
 
