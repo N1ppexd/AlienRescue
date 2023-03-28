@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
-using log4net.Util;
+using Unity.VisualScripting;
 
 [CustomEditor(typeof(PlayerDetect))]
 public class fovEditor : Editor
@@ -21,5 +21,12 @@ public class fovEditor : Editor
 
         Handles.DrawLine(fov.transform.position, fov.transform.position + viewAngleA * fov.seeRadius);
         Handles.DrawLine(fov.transform.position, fov.transform.position + viewAngleB * fov.seeRadius);
+
+        foreach(Transform target in fov.targets)//piirret‰‰n editorissa viiva kaikkiin juttuihin jotka on siin‰ edess‰ ja t‰‰ on punanen viiva...
+        {
+            Handles.color = Color.red;
+            Vector3 pos = new Vector3(target.position.x, fov.transform.position.y, target.position.z);//viiva pysyy lingassa vihollisen kanssa..,..
+            Handles.DrawLine(fov.transform.position, pos);
+        }
     }
 }
