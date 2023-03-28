@@ -59,8 +59,8 @@ Material:
     - _Smoothness: 0
     - _voronoiSpeed: 5
     m_Colors:
-    - _RippleColor: {r: 0.100124545, g: 0.8490566, b: 0.100124545, a: 0}
-    - _RippleColorEmmision: {r: 0, g: 5.992157, b: 0.0627451, a: 1}
+    - _RippleColor: {r: 0, g: 1, b: 0.60909677, a: 0}
+    - _RippleColorEmmision: {r: 0.53865224, g: 5.914858, b: 4.3948417, a: 1}
     - _RippleSpeed: {r: 0, g: 0.08, b: 0, a: 0}
     - _remapMaxBottom: {r: 0, g: 15, b: 0, a: 0}
   m_BuildTextureStacks: []
