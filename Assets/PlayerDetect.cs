@@ -44,7 +44,7 @@ public class PlayerDetect : MonoBehaviour
 
         
     }
-
+    public Vector3 enemyAxis; //axis...
     private void FOVCheck()
     {
         Vector3 lookPositionVector = transform.position + transform.up * ufo.transform.position.y;
@@ -59,7 +59,7 @@ public class PlayerDetect : MonoBehaviour
             targetDirVector.y = 0;                          //laitetaan y nollaan... eli ei katsota ylöspäin...
 
 
-            Vector3 enemyAxis = new Vector3(enemyAi.axis.x, 0, enemyAi.axis.y);
+            enemyAxis = new Vector3(enemyAi.axis.x, 0, enemyAi.axis.y);
             float playerRotation = Vector3.Angle(enemyAxis, transform.forward);
 
             if(Vector3.Angle(transform.position, targetDirVector) < viewAngle - playerRotation / 2)//jatetaan kahdella, koska niin
