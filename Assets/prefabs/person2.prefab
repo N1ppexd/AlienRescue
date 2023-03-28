@@ -4908,6 +4908,7 @@ Transform:
   - {fileID: 2478933210462185948}
   - {fileID: 2478933209290011637}
   - {fileID: 1266940129757952997}
+  - {fileID: 1743972674045242995}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5029,6 +5030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ufo: {fileID: 0}
   valokeila: {fileID: 1266940129757952997}
+  lookDirTransform: {fileID: 1743972674045242995}
   agent: {fileID: 2478933209743379089}
   enemyAi: {fileID: 2478933209743379100}
   seeRadius: 10
@@ -5038,6 +5040,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   maxDistanceToUfo: 10
+  enemyAxis: {x: 0, y: 0, z: 0}
 --- !u!1 &2478933210462185949
 GameObject:
   m_ObjectHideFlags: 0
@@ -5259,3 +5262,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &8265013094996538786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1743972674045242995}
+  m_Layer: 6
+  m_Name: lookDir
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1743972674045242995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8265013094996538786}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2478933209743379094}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

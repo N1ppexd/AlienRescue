@@ -5129,6 +5129,7 @@ Transform:
   - {fileID: 5355387916332527319}
   - {fileID: 5355387916331609757}
   - {fileID: 7304643385885548676}
+  - {fileID: 1933635356775026676}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5250,6 +5251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ufo: {fileID: 0}
   valokeila: {fileID: 7304643385885548676}
+  lookDirTransform: {fileID: 1933635356775026676}
   agent: {fileID: 5355387916458536949}
   enemyAi: {fileID: 5355387916458536930}
   seeRadius: 10
@@ -5259,3 +5261,35 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   maxDistanceToUfo: 10
+  enemyAxis: {x: 0, y: 0, z: 0}
+--- !u!1 &7332423186054395444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1933635356775026676}
+  m_Layer: 6
+  m_Name: lookDir
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1933635356775026676
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7332423186054395444}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5355387916458536958}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

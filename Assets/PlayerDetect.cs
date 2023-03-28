@@ -7,7 +7,7 @@ public class PlayerDetect : MonoBehaviour
 {
 
     [SerializeField] private GameObject ufo;
-    [SerializeField] private Transform valokeila;
+    [SerializeField] private Transform valokeila, lookDirTransform; //lookDirTransform on tyhjä objecti, joka katsoo siihen suuntaan, mihhin mennään...
     [SerializeField] private NavMeshAgent agent;
 
     [SerializeField] private EnemyAI enemyAi;
@@ -50,7 +50,12 @@ public class PlayerDetect : MonoBehaviour
         Vector3 lookPositionVector = transform.position + transform.up * ufo.transform.position.y;
         Collider[] rangeChecks = Physics.OverlapSphere(lookPositionVector, seeRadius, whatIsUfo);
 
-        if(rangeChecks.Length != 0)
+        enemyAxis = new Vector3(enemyAi.axis.x, 0, enemyAi.axis.y);
+        //float playerRotation = Vector3.Angle(enemyAxis, transform.forward);
+
+        lookDirTransform.LookAt(transform.position + enemyAxis * 5);
+
+        if (rangeChecks.Length != 0)
         {
             Transform target = rangeChecks[0].transform;
             Vector3 targetDir = target.position - lookPositionVector;
@@ -59,10 +64,9 @@ public class PlayerDetect : MonoBehaviour
             targetDirVector.y = 0;                          //laitetaan y nollaan... eli ei katsota ylöspäin...
 
 
-            enemyAxis = new Vector3(enemyAi.axis.x, 0, enemyAi.axis.y);
-            float playerRotation = Vector3.Angle(enemyAxis, transform.forward);
+            
 
-            if(Vector3.Angle(transform.position, targetDirVector) < viewAngle - playerRotation / 2)//jatetaan kahdella, koska niin
+            if(Vector3.Angle(lookDirTransform.position, targetDirVector) < viewAngle / 2)//jatetaan kahdella, koska niin
             {
                 Debug.Log("HAAHAA OLET NÄKYVISSÄ....");
                 isSeen = true;
@@ -89,7 +93,7 @@ public class PlayerDetect : MonoBehaviour
     public Vector3 dirFromAngle(float angleInDegrees, bool angleIsGlobal)
     {
         if (!angleIsGlobal)
-            angleInDegrees += transform.eulerAngles.y;
+            angleInDegrees += lookDirTransform.eulerAngles.y;
         return new Vector3(Mathf.Sin(angleInDegrees * Mathf.Deg2Rad), 0, Mathf.Cos(angleInDegrees * Mathf.Deg2Rad));
 
     }
