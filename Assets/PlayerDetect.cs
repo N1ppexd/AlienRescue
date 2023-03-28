@@ -50,7 +50,12 @@ public class PlayerDetect : MonoBehaviour
         Vector3 lookPositionVector = transform.position + transform.up * ufo.transform.position.y;
         Collider[] rangeChecks = Physics.OverlapSphere(lookPositionVector, seeRadius, whatIsUfo);
 
-        if(rangeChecks.Length != 0)
+        enemyAxis = new Vector3(enemyAi.axis.x, 0, enemyAi.axis.y);
+        //float playerRotation = Vector3.Angle(enemyAxis, transform.forward);
+
+        lookDirTransform.LookAt(transform.position + enemyAxis * 5);
+
+        if (rangeChecks.Length != 0)
         {
             Transform target = rangeChecks[0].transform;
             Vector3 targetDir = target.position - lookPositionVector;
@@ -59,10 +64,7 @@ public class PlayerDetect : MonoBehaviour
             targetDirVector.y = 0;                          //laitetaan y nollaan... eli ei katsota ylöspäin...
 
 
-            enemyAxis = new Vector3(enemyAi.axis.x, 0, enemyAi.axis.y);
-            //float playerRotation = Vector3.Angle(enemyAxis, transform.forward);
-
-            lookDirTransform.LookAt(transform.position + enemyAxis);
+            
 
             if(Vector3.Angle(lookDirTransform.position, targetDirVector) < viewAngle / 2)//jatetaan kahdella, koska niin
             {
