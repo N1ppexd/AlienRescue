@@ -15,6 +15,7 @@ TagManager:
   - ruoho
   - puska
   - manmade
+  - polku
   layers:
   - Default
   - TransparentFX
