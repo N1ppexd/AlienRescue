@@ -7,7 +7,7 @@ public class PlayerDetect : MonoBehaviour
 {
 
     [SerializeField] private GameObject ufo;
-    [SerializeField] private Transform valokeila;
+    [SerializeField] private Transform valokeila, lookDirTransform; //lookDirTransform on tyhj‰ objecti, joka katsoo siihen suuntaan, mihhin menn‰‰n...
     [SerializeField] private NavMeshAgent agent;
 
     [SerializeField] private EnemyAI enemyAi;
@@ -60,9 +60,11 @@ public class PlayerDetect : MonoBehaviour
 
 
             enemyAxis = new Vector3(enemyAi.axis.x, 0, enemyAi.axis.y);
-            float playerRotation = Vector3.Angle(enemyAxis, transform.forward);
+            //float playerRotation = Vector3.Angle(enemyAxis, transform.forward);
 
-            if(Vector3.Angle(transform.position, targetDirVector) < viewAngle - playerRotation / 2)//jatetaan kahdella, koska niin
+            lookDirTransform.LookAt(transform.position + enemyAxis);
+
+            if(Vector3.Angle(lookDirTransform.position, targetDirVector) < viewAngle / 2)//jatetaan kahdella, koska niin
             {
                 Debug.Log("HAAHAA OLET NƒKYVISSƒ....");
                 isSeen = true;
@@ -89,7 +91,7 @@ public class PlayerDetect : MonoBehaviour
     public Vector3 dirFromAngle(float angleInDegrees, bool angleIsGlobal)
     {
         if (!angleIsGlobal)
-            angleInDegrees += transform.eulerAngles.y;
+            angleInDegrees += lookDirTransform.eulerAngles.y;
         return new Vector3(Mathf.Sin(angleInDegrees * Mathf.Deg2Rad), 0, Mathf.Cos(angleInDegrees * Mathf.Deg2Rad));
 
     }
