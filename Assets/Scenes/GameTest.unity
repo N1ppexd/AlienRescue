@@ -18105,7 +18105,7 @@ GameObject:
   - component: {fileID: 1071508072}
   - component: {fileID: 1071508071}
   - component: {fileID: 1071508070}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: backGroundTerrain
   m_TagString: ground
   m_Icon: {fileID: 0}
@@ -18505,7 +18505,7 @@ GameObject:
   - component: {fileID: 1102928345}
   - component: {fileID: 1102928344}
   - component: {fileID: 1102928346}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: torni
   m_TagString: Untagged
   m_Icon: {fileID: 0}
