@@ -18,6 +18,10 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GameObject lostScreen, winScreen;
 
+    [SerializeField] private Animator lostScreenAnim;
+    [SerializeField] private Animator winScreenAnim;
+    [SerializeField] private string lostScreenAnimName;
+
     private void Awake()
     {
         if (instance == null)
@@ -48,6 +52,7 @@ public class GameManager : MonoBehaviour
             Debug.Log("KUOLIT!!!!");
             lostScreen.SetActive(true);
             Time.timeScale = 0f;
+            //lostScreenAnim.Play(lostScreenAnimName);
         }
 
     }

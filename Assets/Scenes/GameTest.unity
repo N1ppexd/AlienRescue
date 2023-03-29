@@ -12702,6 +12702,9 @@ MonoBehaviour:
   ajastin: {fileID: 288184861}
   lostScreen: {fileID: 1040033151}
   winScreen: {fileID: 1040033152}
+  lostScreenAnim: {fileID: 1235727138}
+  winScreenAnim: {fileID: 0}
+  lostScreenAnimName: "h\xE4vi\xF6ruutu_spin"
   aliensCaptured: 0
 --- !u!4 &811386840
 Transform:
