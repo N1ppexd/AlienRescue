@@ -5076,10 +5076,6 @@ GameObject:
   - component: {fileID: 3801358885182811852}
   - component: {fileID: 6268103457625482445}
   - component: {fileID: 4235865043471460235}
-  - component: {fileID: 3487873725112335393}
-  - component: {fileID: 1877770658168742531}
-  - component: {fileID: 8247644652160082759}
-  - component: {fileID: 2177804998312558565}
   m_Layer: 0
   m_Name: frog
   m_TagString: Untagged
@@ -5175,75 +5171,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
---- !u!195 &3487873725112335393
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6475616026640451471}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 2.3249998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 8.399999
-  m_BaseOffset: 4.1999993
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
---- !u!114 &1877770658168742531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6475616026640451471}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eec1a74cb1fe80444961f6e0e48c2c14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doKill: 0
-  characterSprite: {fileID: 0}
-  bloodParticles: {fileID: 0}
---- !u!114 &8247644652160082759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6475616026640451471}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4843fa87288e3e44086319df19b6e53f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  pullForce: 0
-  agent: {fileID: 3487873725112335393}
-  isUfo: 0
---- !u!54 &2177804998312558565
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6475616026640451471}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &6700889861849103312
 GameObject:
   m_ObjectHideFlags: 0
