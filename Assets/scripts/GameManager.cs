@@ -41,6 +41,8 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         aliensToCapture = GameObject.FindGameObjectsWithTag("alien").Length;
+
+        alienCounterText.text = aliensCaptured.ToString() + " / " + aliensToCapture.ToString();
     }
 
     // Update is called once per frame
@@ -63,7 +65,7 @@ public class GameManager : MonoBehaviour
     public void UpdateAlienCounter()
     {
         aliensCaptured++;
-        alienCounterText.text = aliensCaptured.ToString();
+        alienCounterText.text = aliensCaptured.ToString() + " / " + aliensToCapture.ToString();
 
         if(aliensCaptured >= aliensToCapture)
         {
