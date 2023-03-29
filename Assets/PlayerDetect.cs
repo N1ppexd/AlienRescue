@@ -123,6 +123,7 @@ public class PlayerDetect : MonoBehaviour
         }
         else
         {
+            GameManager.instance.glitchAudio.Stop();                                //lopettaa glitch ‰‰nen ihan sama t‰‰ on aika paskasti tehty
             isSeen = false;
             meshRenderer.material = normalMaterial;
         }
