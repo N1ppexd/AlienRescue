@@ -1,7 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
+using URPGlitch.Runtime.AnalogGlitch;
+using URPGlitch.Runtime.DigitalGlitch;
+
 
 public class PlayerDetect : MonoBehaviour
 {
@@ -25,9 +32,12 @@ public class PlayerDetect : MonoBehaviour
 
     [SerializeField] private Material normalMaterial, redMaterial;
 
+    [SerializeField] private Volume volume;
+
     // Start is called before the first frame update
     void Start()
     {
+
         mesh = new Mesh();
         mesh.name = "fovMesh";
         meshfilter.mesh = mesh;     //laitetaan mehs meshfiltteriin
@@ -93,15 +103,25 @@ public class PlayerDetect : MonoBehaviour
                     meshRenderer.material = redMaterial;
                     isSeen = true;
                     StartCoroutine(takeTimeOff());
+                    StartCoroutine(GlitchEffect());
                 }
                 else
+                {
+                    isSeen = false;
                     meshRenderer.material = normalMaterial;
+                }
             }
             else
+            {
+                isSeen = false;
                 meshRenderer.material = normalMaterial;
+            }
         }
         else
+        {
+            isSeen = false;
             meshRenderer.material = normalMaterial;
+        }
     }
 
     IEnumerator takeTimeOff()
@@ -115,9 +135,14 @@ public class PlayerDetect : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         valokeila.GetChild(0).GetComponent<SpriteRenderer>().color = Color.white;
 
-        isSeen = false;
     }
 
+
+    IEnumerator GlitchEffect()
+    {
+        yield return new WaitForSeconds(1f);
+
+    }
 
     void DrawFieldOfView() //tehd‰‰n mesh...
     {
