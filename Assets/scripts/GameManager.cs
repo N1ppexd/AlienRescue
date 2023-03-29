@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Animator winScreenAnim;
     [SerializeField] private string lostScreenAnimName;
 
+    public AudioSource glitchAudio;
+
     private void Awake()
     {
         if (instance == null)

@@ -110,11 +110,13 @@ public class PlayerDetect : MonoBehaviour
                 else
                 {
                     isSeen = false;
+                    GameManager.instance.glitchAudio.Stop();                                //lopettaa glitch ‰‰nen
                     meshRenderer.material = normalMaterial;
                 }
             }
             else
             {
+                GameManager.instance.glitchAudio.Stop();                                //lopettaa glitch ‰‰nen
                 isSeen = false;
                 meshRenderer.material = normalMaterial;
             }
@@ -130,8 +132,11 @@ public class PlayerDetect : MonoBehaviour
     {
         agent.SetDestination(transform.position);
         valokeila.GetChild(0).GetComponent<SpriteRenderer>().color = Color.red;
+        GameManager.instance.glitchAudio.Play();                                //tekee glitch ‰‰nen...
         yield return new WaitForSeconds(0.8f);
         Debug.Log("YOU HAVE BEEN SEEN IDIOT!");
+
+
         GameManager.instance.levelDuration -= GameManager.instance.levelDuration / 10; //otetaan 10 prosenttia ajasta....
 
         yield return new WaitForSeconds(0.1f);
