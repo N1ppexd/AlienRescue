@@ -12702,7 +12702,7 @@ MonoBehaviour:
   ajastin: {fileID: 288184861}
   lostScreen: {fileID: 1040033151}
   winScreen: {fileID: 1040033152}
-  lostScreenAnim: {fileID: 1235727138}
+  lostScreenAnim: {fileID: 0}
   winScreenAnim: {fileID: 0}
   lostScreenAnimName: "h\xE4vi\xF6ruutu_spin"
   aliensCaptured: 0
@@ -16601,36 +16601,6 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5134433484305789709, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5316245212143941088, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.41662
-      objectReference: {fileID: 0}
-    - target: {fileID: 5316245212143941088, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.41662
-      objectReference: {fileID: 0}
-    - target: {fileID: 5316245212143941088, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.41662
-      objectReference: {fileID: 0}
-    - target: {fileID: 5316245212143941088, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5316245212143941088, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0.000059365495
-      objectReference: {fileID: 0}
     - target: {fileID: 5443967038882895477, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
         type: 3}
       propertyPath: m_Name
@@ -16762,17 +16732,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: b1bcc5182634cd6458128ff6b41d08cc,
         type: 3}
-    - target: {fileID: 9060839246299619819, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 5cfb65a2952ba9f48b941b38eeea706c,
-        type: 3}
-    - target: {fileID: 9060839246299619819, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
-        type: 3}
-      propertyPath: m_UseSpriteMesh
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c587c8e38618d94b9d7d2133b7ccffe, type: 3}
 --- !u!1 &1040033151 stripped
@@ -19109,32 +19068,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1436097851}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1235727133 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4156817202622861327, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
-    type: 3}
-  m_PrefabInstance: {fileID: 1040033150}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1235727138
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1235727133}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e27a13dda53b0004cbd16f267cced411, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
 --- !u!1001 &1237940360
 PrefabInstance:
   m_ObjectHideFlags: 0

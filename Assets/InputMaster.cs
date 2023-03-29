@@ -53,6 +53,15 @@ public partial class @InputMaster : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""fastMove"",
+                    ""type"": ""Button"",
+                    ""id"": ""5eaab9af-b1f3-4d4a-b755-af7249b99c86"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -273,6 +282,28 @@ public partial class @InputMaster : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": ""XR"",
                     ""action"": ""Beam"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b70b2e34-9e3c-4b04-916d-ac3e2a9e720c"",
+                    ""path"": ""<Keyboard>/leftShift"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""fastMove"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""36d5d46c-f58b-4a3d-ac28-94d1fd901181"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""fastMove"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -894,6 +925,7 @@ public partial class @InputMaster : IInputActionCollection2, IDisposable
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
         m_Player_Look = m_Player.FindAction("Look", throwIfNotFound: true);
         m_Player_Beam = m_Player.FindAction("Beam", throwIfNotFound: true);
+        m_Player_fastMove = m_Player.FindAction("fastMove", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -969,6 +1001,7 @@ public partial class @InputMaster : IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Move;
     private readonly InputAction m_Player_Look;
     private readonly InputAction m_Player_Beam;
+    private readonly InputAction m_Player_fastMove;
     public struct PlayerActions
     {
         private @InputMaster m_Wrapper;
@@ -976,6 +1009,7 @@ public partial class @InputMaster : IInputActionCollection2, IDisposable
         public InputAction @Move => m_Wrapper.m_Player_Move;
         public InputAction @Look => m_Wrapper.m_Player_Look;
         public InputAction @Beam => m_Wrapper.m_Player_Beam;
+        public InputAction @fastMove => m_Wrapper.m_Player_fastMove;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -994,6 +1028,9 @@ public partial class @InputMaster : IInputActionCollection2, IDisposable
                 @Beam.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBeam;
                 @Beam.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBeam;
                 @Beam.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBeam;
+                @fastMove.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFastMove;
+                @fastMove.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFastMove;
+                @fastMove.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFastMove;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -1007,6 +1044,9 @@ public partial class @InputMaster : IInputActionCollection2, IDisposable
                 @Beam.started += instance.OnBeam;
                 @Beam.performed += instance.OnBeam;
                 @Beam.canceled += instance.OnBeam;
+                @fastMove.started += instance.OnFastMove;
+                @fastMove.performed += instance.OnFastMove;
+                @fastMove.canceled += instance.OnFastMove;
             }
         }
     }
@@ -1174,6 +1214,7 @@ public partial class @InputMaster : IInputActionCollection2, IDisposable
         void OnMove(InputAction.CallbackContext context);
         void OnLook(InputAction.CallbackContext context);
         void OnBeam(InputAction.CallbackContext context);
+        void OnFastMove(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {
