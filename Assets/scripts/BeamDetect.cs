@@ -70,6 +70,8 @@ public class BeamDetect : MonoBehaviour
             if (isUfo)
             {
                 GameManager.instance.UpdateAlienCounter();
+                if(GameManager.instance.levelDuration < GameManager.instance.maxLevelDuration - GameManager.instance.levelDuration * 0.1f)
+                    GameManager.instance.levelDuration += GameManager.instance.levelDuration * 0.1f;//lisätään 10% aikaan
                 Destroy(gameObject);//tämä on ihan täyttä paskaa mutta nytte teen vaa tämmösen joka toimii jotenki
             }
                

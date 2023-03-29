@@ -35,7 +35,18 @@ public class EnemyAI : MonoBehaviour
     {
         if (agent is null)
             return;
-        StartCoroutine(wanderRandomly());
+
+        try
+        {
+            StartCoroutine(wanderRandomly());
+        }
+        catch
+        {
+            Debug.Log("ei toimi");
+        }
+        
+
+
         ufo = GameObject.Find("ufo");
 
     }
@@ -63,6 +74,8 @@ public class EnemyAI : MonoBehaviour
         while (true)
         {
             Wander();
+            
+            
             yield return new WaitForSeconds(Random.Range(5, 15));
         }
     }
@@ -82,8 +95,17 @@ public class EnemyAI : MonoBehaviour
         if (Physics.Raycast(wanderPos, Vector3.down, out hit, 10.0f, groundMask))
             wanderPos = new Vector3(pos.x, hit.point.y, pos.y);
 
-        agent.SetDestination(wanderPos); //laitetaan ai:lle tämä kohteeksi...
 
+        try
+        {
+            agent.SetDestination(wanderPos); //laitetaan ai:lle tämä kohteeksi...
+
+        }
+        catch
+        {
+            Debug.Log("ei voida liikkua jostain syystä");
+        }
+        
     }
 
     private void OnCollisionEnter(Collision collision)
