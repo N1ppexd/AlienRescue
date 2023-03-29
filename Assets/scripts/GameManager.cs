@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private string lostScreenAnimName;
 
     public AudioSource glitchAudio;
-
+    public Animator kelloAnim;
     private void Awake()
     {
         if (instance == null)

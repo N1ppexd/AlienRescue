@@ -18212,6 +18212,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61bb78648bacff44ea86f791f56c90c4, type: 3}
+--- !u!95 &1059910939 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6612409544790824067, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1040033150}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1064873059 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 802026323204205345, guid: 35f37a88bf654914ba30f874b5543319,
@@ -33465,6 +33471,11 @@ PrefabInstance:
       propertyPath: ajastin
       value: 
       objectReference: {fileID: 288184861}
+    - target: {fileID: 7300568247226097622, guid: f559ac210ee1fa94ab4ad64d765b889c,
+        type: 3}
+      propertyPath: kelloAnim
+      value: 
+      objectReference: {fileID: 1059910939}
     - target: {fileID: 7300568247226097622, guid: f559ac210ee1fa94ab4ad64d765b889c,
         type: 3}
       propertyPath: winScreen

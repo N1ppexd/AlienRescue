@@ -54,6 +54,8 @@ public class PlayerDetect : MonoBehaviour
         enemyAxis = new Vector3(enemyAi.axis.x, 0, enemyAi.axis.y);
         lookDirTransform.LookAt(transform.position + enemyAxis * 5);
         DrawFieldOfView();
+
+        
     }
 
     private bool isSeen;
@@ -75,6 +77,7 @@ public class PlayerDetect : MonoBehaviour
     public List<Transform> targets = new List<Transform>(); //targetit, jotka on vihollisen fovin sis‰ll‰.
     private void FOVCheck()
     {
+
         targets.Clear();//tyhjennet‰‰n...
         Vector3 lookPositionVector = lookDirTransform.position + transform.up * ufo.transform.position.y;
         Collider[] rangeChecks = Physics.OverlapSphere(lookPositionVector, seeRadius, whatIsUfo);
@@ -106,16 +109,19 @@ public class PlayerDetect : MonoBehaviour
                     isSeen = true;
                     StartCoroutine(takeTimeOff());
                     StartCoroutine(GlitchEffect());
+                    GameManager.instance.kelloAnim.SetBool("alert", true);
                 }
                 else
                 {
                     isSeen = false;
+                    
                     GameManager.instance.glitchAudio.Stop();                                //lopettaa glitch ‰‰nen
                     meshRenderer.material = normalMaterial;
                 }
             }
             else
             {
+                
                 GameManager.instance.glitchAudio.Stop();                                //lopettaa glitch ‰‰nen
                 isSeen = false;
                 meshRenderer.material = normalMaterial;
@@ -142,6 +148,8 @@ public class PlayerDetect : MonoBehaviour
 
         yield return new WaitForSeconds(0.1f);
         valokeila.GetChild(0).GetComponent<SpriteRenderer>().color = Color.white;
+        GameManager.instance.kelloAnim.SetBool("alert", false);
+
 
     }
 
