@@ -27,12 +27,12 @@ public class BeamController : MonoBehaviour
     void BeamAbility(bool isEnabled)
     {
         Debug.Log("beam" + isEnabled);
-        if (isEnabled)
+        if (isEnabled && beam != null)
         {
             beam.SetActive(true);
             beamAudio.Play();
         }
-        else if (!isEnabled)
+        else if (!isEnabled && beam != null)
         {
             beam.SetActive(false);
             beamAudio.Stop();
