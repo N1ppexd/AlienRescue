@@ -33,6 +33,8 @@ public class PlayerDetect : MonoBehaviour
     [SerializeField] private Material normalMaterial, redMaterial;
 
     [SerializeField] private Volume volume;
+    private AnalogGlitchVolume analogGlitch;
+    private DigitalGlitchVolume digitalGlitch;
 
     // Start is called before the first frame update
     void Start()
@@ -140,8 +142,14 @@ public class PlayerDetect : MonoBehaviour
 
     IEnumerator GlitchEffect()
     {
+        volume.profile.TryGet<AnalogGlitchVolume>(out analogGlitch);
+        volume.profile.TryGet<DigitalGlitchVolume>(out digitalGlitch);
+
+        analogGlitch.active = true; digitalGlitch.active = true;
+
         yield return new WaitForSeconds(1f);
 
+        analogGlitch.active = false; digitalGlitch.active = false;
     }
 
     void DrawFieldOfView() //tehd‰‰n mesh...
