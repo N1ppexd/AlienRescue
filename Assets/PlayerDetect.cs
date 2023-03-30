@@ -115,21 +115,21 @@ public class PlayerDetect : MonoBehaviour
                 {
                     isSeen = false;
                     
-                    GameManager.instance.glitchAudio.Stop();                                //lopettaa glitch ‰‰nen
+                    //GameManager.instance.glitchAudio.Stop();                                //lopettaa glitch ‰‰nen
                     meshRenderer.material = normalMaterial;
                 }
             }
             else
             {
                 
-                GameManager.instance.glitchAudio.Stop();                                //lopettaa glitch ‰‰nen
+                //GameManager.instance.glitchAudio.Stop();                                //lopettaa glitch ‰‰nen
                 isSeen = false;
                 meshRenderer.material = normalMaterial;
             }
         }
         else
         {
-            GameManager.instance.glitchAudio.Stop();                                //lopettaa glitch ‰‰nen ihan sama t‰‰ on aika paskasti tehty
+            //GameManager.instance.glitchAudio.Stop();                                //lopettaa glitch ‰‰nen ihan sama t‰‰ on aika paskasti tehty
             isSeen = false;
             meshRenderer.material = normalMaterial;
         }
@@ -163,6 +163,7 @@ public class PlayerDetect : MonoBehaviour
 
         yield return new WaitForSeconds(1f);
 
+        GameManager.instance.glitchAudio.Stop();                                //lopettaa glitch ‰‰nen
         analogGlitch.active = false; digitalGlitch.active = false;
     }
 
