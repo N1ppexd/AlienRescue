@@ -8802,6 +8802,11 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134433484305789709, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5443967038882895477, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
         type: 3}
       propertyPath: m_Name
@@ -8815,7 +8820,12 @@ PrefabInstance:
     - target: {fileID: 5443967038882895480, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 100
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443967038882895480, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
+        type: 3}
+      propertyPath: m_PlaneDistance
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5443967038882895481, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
         type: 3}
