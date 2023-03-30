@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ea9a3f6985b4cf74db4fb9821375e9e6
+guid: b03f60ce723a32f47b8f8489814d4263
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -52,7 +52,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -101,29 +101,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: konsolitutoriaalinappaimet_0
+      name: Lshift_spacebar_tutoriaalinapit_0
       rect:
         serializedVersion: 2
-        x: 47
-        y: 344
-        width: 89
-        height: 103
+        x: 19
+        y: 177
+        width: 189
+        height: 152
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc52df268d8db0245a830273da408d7e
-      internalID: -2097475600
+      spriteID: 3bbb8928aeb167d4ebafcf7ed3c38105
+      internalID: 1360771462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: konsolitutoriaalinappaimet_1
+      name: Lshift_spacebar_tutoriaalinapit_1
       rect:
         serializedVersion: 2
-        x: 162
-        y: 145
-        width: 218
-        height: 208
+        x: 22
+        y: 21
+        width: 383
+        height: 134
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,69 +140,33 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db263f4343c7e6f46bc5790ffcbf0703
-      internalID: -658968772
+      spriteID: b92d8ce357fe6744fabcc453199ca82a
+      internalID: 1877194296
       vertices: []
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: konsolitutoriaalinappaimet_2
-      rect:
-        serializedVersion: 2
-        x: 462
-        y: 169
-        width: 158
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84d655c95ba878e4083bbb4605ad900d
-      internalID: -1507268875
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: konsolitutoriaalinappaimet_3
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 51
-        width: 89
-        height: 103
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3027c073fc004dc439e778d0cc39101f
-      internalID: -1785283757
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    outline: []
+    outline:
+    - - {x: -207.43962, y: 0.9178772}
+      - {x: -207.43962, y: 139.21097}
+      - {x: -7.9549103, y: 139.21097}
+      - {x: -7.9549103, y: 0.9178772}
+    - - {x: -209.27538, y: -162.46379}
+      - {x: -209.27538, y: -26.006454}
+      - {x: 168.88892, y: -26.006454}
+      - {x: 168.88892, y: -162.46379}
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      konsolitutoriaalinappaimet_2: -1507268875
-      konsolitutoriaalinappaimet_1: -658968772
-      konsolitutoriaalinappaimet_0: -2097475600
-      konsolitutoriaalinappaimet_3: -1785283757
+      Lshift_spacebar_tutoriaalinapit_1: 1877194296
+      Lshift_spacebar_tutoriaalinapit_0: 1360771462
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
