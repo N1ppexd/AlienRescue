@@ -13,6 +13,8 @@ public class SettingsMenu : MonoBehaviour
 
     [SerializeField] Dropdown resolution, windowMode;
 
+    [SerializeField] Slider musicVolSlider, effectsVolSlider;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +29,27 @@ public class SettingsMenu : MonoBehaviour
             int mode = PlayerPrefs.GetInt(screenResolutionString);
             ApplyResolution(mode);
             resolution.value =  mode;
+        }
+
+        if (PlayerPrefs.HasKey("musicVol"))
+        {
+            float volume = PlayerPrefs.GetFloat("musicVol");
+            musicVolSlider.value = volume;
+
+            if (volume <= 0)
+                music.SetFloat("volume", -80);
+            else
+                music.SetFloat("volume", Mathf.Log(volume) * 20);
+        }
+        if (PlayerPrefs.HasKey("effectsVol"))
+        {
+            float volume = PlayerPrefs.GetFloat("effectsVol");
+            effectsVolSlider.value = volume;
+
+            if (volume <= 0)
+                soundEffects.SetFloat("volume", -80);
+            else
+                soundEffects.SetFloat("volume", Mathf.Log(volume) * 20);
         }
     } 
 
@@ -94,6 +117,8 @@ public class SettingsMenu : MonoBehaviour
             soundEffects.SetFloat("volume", -80);
         else
             soundEffects.SetFloat("volume", Mathf.Log(volume) * 20);
+
+        PlayerPrefs.SetFloat("effectsVol", volume);
     }
 
     public void musicVolume(float volume)
@@ -102,6 +127,8 @@ public class SettingsMenu : MonoBehaviour
             music.SetFloat("volume", -80);
         else
             music.SetFloat("volume", Mathf.Log(volume) * 20);
+
+        PlayerPrefs.SetFloat("musicVol", volume);
     }
 
     public void GoBack()//mennään pois settings menusta...
