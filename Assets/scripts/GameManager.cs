@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
+using UnityEngine.EventSystems;
 
 public class GameManager : MonoBehaviour
 {
@@ -22,6 +24,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Animator winScreenAnim;
     [SerializeField] private string lostScreenAnimName;
 
+    [SerializeField] private PlayerInput playerInput;
+    [SerializeField] private GameObject winScreenDefaultButton, PauseScreenDefaultButton, LoseScreenDefaultButton;
+
     public AudioSource glitchAudio;
     public Animator kelloAnim;
     private void Awake()
@@ -32,7 +37,6 @@ public class GameManager : MonoBehaviour
         }
         else if (instance != null)
             Destroy(this);
-
         
     }
 
@@ -55,6 +59,12 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("KUOLIT!!!!");
             lostScreen.SetActive(true);
+            if (playerInput.currentControlScheme == "Gamepad")
+            {
+                EventSystem.current.firstSelectedGameObject = null;
+                EventSystem.current.SetSelectedGameObject(LoseScreenDefaultButton);
+            }
+                
             Time.timeScale = 0f;
             //lostScreenAnim.Play(lostScreenAnimName);
         }
@@ -70,6 +80,12 @@ public class GameManager : MonoBehaviour
         if(aliensCaptured >= aliensToCapture)
         {
             winScreen.SetActive(true);
+
+            if (playerInput.currentControlScheme == "Gamepad")
+            {
+                EventSystem.current.firstSelectedGameObject = null;
+                EventSystem.current.SetSelectedGameObject(winScreenDefaultButton);
+            }
             Time.timeScale = 0;
         }
     }
