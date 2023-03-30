@@ -70,6 +70,7 @@ public class BeamDetect : MonoBehaviour
             if (isUfo)
             {
                 BeamController.instance.OnCaptureAlien();
+                FaceChanger.instance.OnCaptureAlien();
 
                 GameManager.instance.UpdateAlienCounter();
                 if(GameManager.instance.levelDuration < GameManager.instance.maxLevelDuration - GameManager.instance.levelDuration * 0.1f)

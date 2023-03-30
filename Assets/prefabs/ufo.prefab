@@ -15228,6 +15228,7 @@ GameObject:
   - component: {fileID: 1053759585288984653}
   - component: {fileID: 1053759585288984652}
   - component: {fileID: 6615667778050963766}
+  - component: {fileID: 3747434103276913806}
   m_Layer: 7
   m_Name: ufo
   m_TagString: ufo
@@ -15408,10 +15409,6 @@ MonoBehaviour:
   interactableObjects:
     serializedVersion: 2
     m_Bits: 64
-  kupoli: {fileID: 7207115302887013895}
-  normalFace: {fileID: 2100000, guid: afc1a4a09dd3e404589ff4a4c4aee929, type: 2}
-  loveFace: {fileID: 2100000, guid: d9ad5ab621f078e4ea9e48d1206b6e43, type: 2}
-  angryFace: {fileID: 2100000, guid: cf8045e5d4d0522469bd63bedc87a3cf, type: 2}
   alienCaptureSound: {fileID: 2532655881299369447}
 --- !u!135 &6615667778050963766
 SphereCollider:
@@ -15426,6 +15423,22 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3747434103276913806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053759585288984645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22fd815830c4ad446be69bbff93b6214, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kupoli: {fileID: 7207115302887013895}
+  normalFace: {fileID: 2100000, guid: afc1a4a09dd3e404589ff4a4c4aee929, type: 2}
+  loveFace: {fileID: 2100000, guid: d9ad5ab621f078e4ea9e48d1206b6e43, type: 2}
+  angryFace: {fileID: 2100000, guid: cf8045e5d4d0522469bd63bedc87a3cf, type: 2}
 --- !u!1 &1403053661513991117
 GameObject:
   m_ObjectHideFlags: 0

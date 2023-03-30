@@ -15,9 +15,6 @@ public class BeamController : MonoBehaviour
     [SerializeField] private float beamMaxDistance = 10, beamAngleMin, beamAngleMax, pullForce = 1000;
     [SerializeField] LayerMask interactableObjects;
 
-    [SerializeField] private MeshRenderer kupoli;
-    [SerializeField] private Material normalFace, loveFace, angryFace;
-
     public static BeamController instance;
 
     [SerializeField] private AudioSource alienCaptureSound; //‰‰‰ni, joka kuuluu, kun alieni napataan.
@@ -51,31 +48,8 @@ public class BeamController : MonoBehaviour
         }
 
     }
-
-    public void SeenByAPerson()
-    {
-        StartCoroutine(changeFace(FaceMode.angry));
-    }
-
-    enum FaceMode
-    {
-        angry,
-        love
-    }
     public void OnCaptureAlien()
     {
         alienCaptureSound.Play();
-        StartCoroutine(changeFace(FaceMode.love));
     }
-
-    IEnumerator changeFace(FaceMode mode)
-    {
-        if(mode == FaceMode.love)
-            kupoli.material = loveFace;
-        else if (mode == FaceMode.angry)
-            kupoli.material = angryFace;
-        yield return new WaitForSeconds(1.5f);
-        kupoli.material = normalFace;
-    }
-
 }
