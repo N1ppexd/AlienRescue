@@ -20,6 +20,8 @@ public class BeamController : MonoBehaviour
 
     public static BeamController instance;
 
+    [SerializeField] private AudioSource alienCaptureSound; //‰‰‰ni, joka kuuluu, kun alieni napataan.
+
     private void Awake()
     {
         if(instance == null)
@@ -52,6 +54,7 @@ public class BeamController : MonoBehaviour
 
     public void OnCaptureAlien()
     {
+        alienCaptureSound.Play();
         StartCoroutine(changeFace());
     }
 
