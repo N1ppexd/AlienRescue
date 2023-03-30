@@ -9,9 +9,8 @@ public class TutorialScript : MonoBehaviour
 
     public PlayerInput playerInput;
 
-    [SerializeField] private Sprite KeyboardSprite, ControllerSprite;
 
-    [SerializeField] private Image spriteImage;
+    [SerializeField] private Image keyBoardSprite, ControllerSprite;
 
     private void Awake()
     {
@@ -28,11 +27,13 @@ public class TutorialScript : MonoBehaviour
         Debug.Log(currentControlScheme + " on controllerScheme nimi");
         if(currentControlScheme == "Gamepad")
         {
-            spriteImage.sprite = ControllerSprite;
+            keyBoardSprite.gameObject.SetActive(false);
+            ControllerSprite.gameObject.SetActive(true);
         }
         else
         {
-            spriteImage.sprite = KeyboardSprite;
+            keyBoardSprite.gameObject.SetActive(true);
+            ControllerSprite.gameObject.SetActive(false);
         }
 
     }
