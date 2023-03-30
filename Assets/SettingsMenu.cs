@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 
 public class SettingsMenu : MonoBehaviour
@@ -19,13 +20,13 @@ public class SettingsMenu : MonoBehaviour
         {
             int mode = PlayerPrefs.GetInt(screenModeString);
             ApplyScreenMode(mode);
-            windowMode.SetValueWithoutNotify(mode);
+            windowMode.value = mode;
         }
         if (PlayerPrefs.HasKey(screenResolutionString))
         {
             int mode = PlayerPrefs.GetInt(screenResolutionString);
             ApplyResolution(mode);
-            resolution.SetValueWithoutNotify(mode);
+            resolution.value =  mode;
         }
     } 
 
@@ -84,6 +85,24 @@ public class SettingsMenu : MonoBehaviour
         Debug.LogError("screenModea ei ole... ei vaihdeta..");
     }
 
+
+    [SerializeField] private AudioMixer soundEffects, music;
+
+    public void SoundEffectVolume(float volume)
+    {
+        if(volume<=0)
+            soundEffects.SetFloat("volume", -80);
+        else
+            soundEffects.SetFloat("volume", Mathf.Log(volume) * 20);
+    }
+
+    public void musicVolume(float volume)
+    {
+        if (volume <= 0)
+            music.SetFloat("volume", -80);
+        else
+            music.SetFloat("volume", Mathf.Log(volume) * 20);
+    }
 
     public void GoBack()//mennään pois settings menusta...
     {
