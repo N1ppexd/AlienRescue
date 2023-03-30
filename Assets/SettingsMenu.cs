@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 
 public class SettingsMenu : MonoBehaviour
@@ -12,6 +13,8 @@ public class SettingsMenu : MonoBehaviour
 
     [SerializeField] Dropdown resolution, windowMode;
 
+    [SerializeField] Slider musicVolSlider, effectsVolSlider;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,13 +22,34 @@ public class SettingsMenu : MonoBehaviour
         {
             int mode = PlayerPrefs.GetInt(screenModeString);
             ApplyScreenMode(mode);
-            windowMode.SetValueWithoutNotify(mode);
+            windowMode.value = mode;
         }
         if (PlayerPrefs.HasKey(screenResolutionString))
         {
             int mode = PlayerPrefs.GetInt(screenResolutionString);
             ApplyResolution(mode);
-            resolution.SetValueWithoutNotify(mode);
+            resolution.value =  mode;
+        }
+
+        if (PlayerPrefs.HasKey("musicVol"))
+        {
+            float volume = PlayerPrefs.GetFloat("musicVol");
+            musicVolSlider.value = volume;
+
+            if (volume <= 0)
+                music.SetFloat("volume", -80);
+            else
+                music.SetFloat("volume", Mathf.Log(volume) * 20);
+        }
+        if (PlayerPrefs.HasKey("effectsVol"))
+        {
+            float volume = PlayerPrefs.GetFloat("effectsVol");
+            effectsVolSlider.value = volume;
+
+            if (volume <= 0)
+                soundEffects.SetFloat("volume", -80);
+            else
+                soundEffects.SetFloat("volume", Mathf.Log(volume) * 20);
         }
     } 
 
@@ -84,6 +108,28 @@ public class SettingsMenu : MonoBehaviour
         Debug.LogError("screenModea ei ole... ei vaihdeta..");
     }
 
+
+    [SerializeField] private AudioMixer soundEffects, music;
+
+    public void SoundEffectVolume(float volume)
+    {
+        if(volume<=0)
+            soundEffects.SetFloat("volume", -80);
+        else
+            soundEffects.SetFloat("volume", Mathf.Log(volume) * 20);
+
+        PlayerPrefs.SetFloat("effectsVol", volume);
+    }
+
+    public void musicVolume(float volume)
+    {
+        if (volume <= 0)
+            music.SetFloat("volume", -80);
+        else
+            music.SetFloat("volume", Mathf.Log(volume) * 20);
+
+        PlayerPrefs.SetFloat("musicVol", volume);
+    }
 
     public void GoBack()//mennään pois settings menusta...
     {
