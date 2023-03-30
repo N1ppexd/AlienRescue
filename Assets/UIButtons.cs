@@ -27,6 +27,7 @@ public class UIButtons : MonoBehaviour
 
     public void RestartLvl()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
