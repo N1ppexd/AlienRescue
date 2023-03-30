@@ -16,7 +16,7 @@ public class BeamController : MonoBehaviour
     [SerializeField] LayerMask interactableObjects;
 
     [SerializeField] private MeshRenderer kupoli;
-    [SerializeField] private Material normalFace, loveFace;
+    [SerializeField] private Material normalFace, loveFace, angryFace;
 
     public static BeamController instance;
 
@@ -52,15 +52,28 @@ public class BeamController : MonoBehaviour
 
     }
 
+    public void SeenByAPerson()
+    {
+        StartCoroutine(changeFace(FaceMode.angry));
+    }
+
+    enum FaceMode
+    {
+        angry,
+        love
+    }
     public void OnCaptureAlien()
     {
         alienCaptureSound.Play();
-        StartCoroutine(changeFace());
+        StartCoroutine(changeFace(FaceMode.love));
     }
 
-    IEnumerator changeFace()
+    IEnumerator changeFace(FaceMode mode)
     {
-        kupoli.material = loveFace;
+        if(mode == FaceMode.love)
+            kupoli.material = loveFace;
+        else if (mode == FaceMode.angry)
+            kupoli.material = angryFace;
         yield return new WaitForSeconds(1.5f);
         kupoli.material = normalFace;
     }

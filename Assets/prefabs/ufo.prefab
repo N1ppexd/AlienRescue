@@ -15411,6 +15411,7 @@ MonoBehaviour:
   kupoli: {fileID: 7207115302887013895}
   normalFace: {fileID: 2100000, guid: afc1a4a09dd3e404589ff4a4c4aee929, type: 2}
   loveFace: {fileID: 2100000, guid: d9ad5ab621f078e4ea9e48d1206b6e43, type: 2}
+  angryFace: {fileID: 2100000, guid: cf8045e5d4d0522469bd63bedc87a3cf, type: 2}
   alienCaptureSound: {fileID: 2532655881299369447}
 --- !u!135 &6615667778050963766
 SphereCollider:

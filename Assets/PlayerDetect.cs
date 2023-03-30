@@ -161,6 +161,8 @@ public class PlayerDetect : MonoBehaviour
 
         analogGlitch.active = true; digitalGlitch.active = true;
 
+        BeamController.instance.SeenByAPerson(); //TODELLA paskaa koodia, mutta korjaa tulevaisuudessas
+
         yield return new WaitForSeconds(1f);
 
         GameManager.instance.glitchAudio.Stop();                                //lopettaa glitch ‰‰nen
