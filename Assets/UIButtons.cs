@@ -18,4 +18,10 @@ public class UIButtons : MonoBehaviour
         Application.Quit(); //poistutaan koko pelistä...
     }
 
+
+    public void StartGame()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("GameTest");
+    }
 }
