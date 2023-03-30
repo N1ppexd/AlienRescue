@@ -15,8 +15,18 @@ public class BeamController : MonoBehaviour
     [SerializeField] private float beamMaxDistance = 10, beamAngleMin, beamAngleMax, pullForce = 1000;
     [SerializeField] LayerMask interactableObjects;
 
+    [SerializeField] private MeshRenderer kupoli;
+    [SerializeField] private Material normalFace, loveFace;
+
+    public static BeamController instance;
+
     private void Awake()
     {
+        if(instance == null)
+            instance = this;
+        else
+            Destroy(instance);
+
         inputMaster = new InputMaster();
         inputMaster.Enable();
 
@@ -38,6 +48,18 @@ public class BeamController : MonoBehaviour
             beamAudio.Stop();
         }
 
+    }
+
+    public void OnCaptureAlien()
+    {
+        StartCoroutine(changeFace());
+    }
+
+    IEnumerator changeFace()
+    {
+        kupoli.material = loveFace;
+        yield return new WaitForSeconds(1.5f);
+        kupoli.material = normalFace;
     }
 
 }

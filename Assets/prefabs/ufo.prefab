@@ -15408,6 +15408,9 @@ MonoBehaviour:
   interactableObjects:
     serializedVersion: 2
     m_Bits: 64
+  kupoli: {fileID: 7207115302887013895}
+  normalFace: {fileID: 2100000, guid: afc1a4a09dd3e404589ff4a4c4aee929, type: 2}
+  loveFace: {fileID: 2100000, guid: d9ad5ab621f078e4ea9e48d1206b6e43, type: 2}
 --- !u!135 &6615667778050963766
 SphereCollider:
   m_ObjectHideFlags: 0

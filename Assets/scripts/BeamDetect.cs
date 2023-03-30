@@ -69,6 +69,8 @@ public class BeamDetect : MonoBehaviour
                 isBeingLifted = false;
             if (isUfo)
             {
+                BeamController.instance.OnCaptureAlien();
+
                 GameManager.instance.UpdateAlienCounter();
                 if(GameManager.instance.levelDuration < GameManager.instance.maxLevelDuration - GameManager.instance.levelDuration * 0.1f)
                     GameManager.instance.levelDuration += GameManager.instance.levelDuration * 0.1f;//lisätään 10% aikaan
