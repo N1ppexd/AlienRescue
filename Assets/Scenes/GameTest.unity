@@ -16836,6 +16836,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Camera
       value: 
+      objectReference: {fileID: 1258405508}
+    - target: {fileID: 5443967038882895480, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
+        type: 3}
+      propertyPath: m_PlaneDistance
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5443967038882895481, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
         type: 3}
@@ -19839,6 +19844,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!20 &1258405508 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 1053759585008709766, guid: f5bbcaf552a4abb4b941db813e9ec2e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1053759584992836195}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1261497313
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31849,7 +31860,7 @@ PrefabInstance:
     - target: {fileID: 1053759585008709766, guid: f5bbcaf552a4abb4b941db813e9ec2e1,
         type: 3}
       propertyPath: m_CullingMask.m_Bits
-      value: 4055
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1053759585288984644, guid: f5bbcaf552a4abb4b941db813e9ec2e1,
         type: 3}
