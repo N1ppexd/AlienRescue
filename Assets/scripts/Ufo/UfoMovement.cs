@@ -44,7 +44,7 @@ public class UfoMovement : MonoBehaviour
     private void Movement(Vector2 axis)
     {
 
-        Debug.Log(axis + " on axis");
+        //Debug.Log(axis + " on axis");
         //koska y on ylöäspäin, tehdään näin. Pelissä ufo ei pyöäti ympäriinsä niin tämä on ok
         movementAxis = new Vector3(axis.x, 0, axis.y);
 

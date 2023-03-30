@@ -824,7 +824,18 @@
                 {
                     "name": "",
                     "id": "15ab9ee0-c7f1-42f6-8269-b75406275a58",
-                    "path": "<Gamepad>/homeButton",
+                    "path": "<XInputController>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "OpenMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0fc8dfff-fa92-4f6d-b75a-f2e71ddbd747",
+                    "path": "<DualShockGamepad>/start",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",

@@ -1017,6 +1017,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 502bc90a671edda42b81a1a66225687d, type: 3}
+--- !u!1 &131545383 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1940462137973433161, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1040033150}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &132662799
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12579,6 +12585,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 157468291}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1603443113 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3897852509379838520, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1040033150}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1603500880
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13666,6 +13678,7 @@ GameObject:
   - component: {fileID: 1746382071}
   - component: {fileID: 1746382070}
   - component: {fileID: 1746382069}
+  - component: {fileID: 1746382073}
   m_Layer: 5
   m_Name: mOVEMENTtUTORIAL
   m_TagString: Untagged
@@ -13755,6 +13768,22 @@ RectTransform:
   m_AnchoredPosition: {x: -8.63, y: 3.6402}
   m_SizeDelta: {x: 5.4332, y: 2.6214}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1746382073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746382068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cfa188841fb9a649af348748be32ee4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInput: {fileID: 1053759584992836199}
+  KeyboardSprite: {fileID: 21300000, guid: 1d69d4ba33e4d614bb69f3d463949576, type: 3}
+  ControllerSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  spriteImage: {fileID: 1343370638}
 --- !u!4 &1747776574 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
@@ -16729,6 +16758,11 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 116
       objectReference: {fileID: 0}
+    - target: {fileID: 1053759585288984653, guid: f5bbcaf552a4abb4b941db813e9ec2e1,
+        type: 3}
+      propertyPath: m_NotificationBehavior
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1053759585288984655, guid: f5bbcaf552a4abb4b941db813e9ec2e1,
         type: 3}
       propertyPath: m_RootOrder
@@ -16833,6 +16867,18 @@ Camera:
     type: 3}
   m_PrefabInstance: {fileID: 1053759584992836195}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1053759584992836199 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1053759585288984653, guid: f5bbcaf552a4abb4b941db813e9ec2e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1053759584992836195}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681720236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1256253055795362768
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17139,6 +17185,11 @@ PrefabInstance:
       objectReference: {fileID: 1194054621}
     - target: {fileID: 7300568247226097622, guid: f559ac210ee1fa94ab4ad64d765b889c,
         type: 3}
+      propertyPath: playerInput
+      value: 
+      objectReference: {fileID: 1053759584992836199}
+    - target: {fileID: 7300568247226097622, guid: f559ac210ee1fa94ab4ad64d765b889c,
+        type: 3}
       propertyPath: levelDuration
       value: 50
       objectReference: {fileID: 0}
@@ -17152,6 +17203,16 @@ PrefabInstance:
       propertyPath: maxLevelDuration
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 7300568247226097622, guid: f559ac210ee1fa94ab4ad64d765b889c,
+        type: 3}
+      propertyPath: winScreenDefaultButton
+      value: 
+      objectReference: {fileID: 1603443113}
+    - target: {fileID: 7300568247226097622, guid: f559ac210ee1fa94ab4ad64d765b889c,
+        type: 3}
+      propertyPath: LoseScreenDefaultButton
+      value: 
+      objectReference: {fileID: 131545383}
     - target: {fileID: 7300568247226097623, guid: f559ac210ee1fa94ab4ad64d765b889c,
         type: 3}
       propertyPath: m_Name
