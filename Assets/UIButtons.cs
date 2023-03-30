@@ -24,4 +24,9 @@ public class UIButtons : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene("GameTest");
     }
+
+    public void RestartLvl()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }

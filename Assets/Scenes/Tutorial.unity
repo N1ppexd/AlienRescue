@@ -8978,6 +8978,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1040033150}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1040033153 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3047985809492907697, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1040033150}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1043088854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12584,12 +12590,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 802026323204205345, guid: 35f37a88bf654914ba30f874b5543319,
     type: 3}
   m_PrefabInstance: {fileID: 157468291}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1603443113 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3897852509379838520, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
-    type: 3}
-  m_PrefabInstance: {fileID: 1040033150}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1603500880
 PrefabInstance:
@@ -17207,7 +17207,7 @@ PrefabInstance:
         type: 3}
       propertyPath: winScreenDefaultButton
       value: 
-      objectReference: {fileID: 1603443113}
+      objectReference: {fileID: 1040033153}
     - target: {fileID: 7300568247226097622, guid: f559ac210ee1fa94ab4ad64d765b889c,
         type: 3}
       propertyPath: LoseScreenDefaultButton

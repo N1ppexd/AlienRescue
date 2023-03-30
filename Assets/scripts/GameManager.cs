@@ -60,7 +60,11 @@ public class GameManager : MonoBehaviour
             Debug.Log("KUOLIT!!!!");
             lostScreen.SetActive(true);
             if (playerInput.currentControlScheme == "Gamepad")
-                EventSystem.current.firstSelectedGameObject = LoseScreenDefaultButton;
+            {
+                EventSystem.current.firstSelectedGameObject = null;
+                EventSystem.current.SetSelectedGameObject(LoseScreenDefaultButton);
+            }
+                
             Time.timeScale = 0f;
             //lostScreenAnim.Play(lostScreenAnimName);
         }
@@ -78,7 +82,10 @@ public class GameManager : MonoBehaviour
             winScreen.SetActive(true);
 
             if (playerInput.currentControlScheme == "Gamepad")
-                EventSystem.current.firstSelectedGameObject = winScreenDefaultButton;
+            {
+                EventSystem.current.firstSelectedGameObject = null;
+                EventSystem.current.SetSelectedGameObject(winScreenDefaultButton);
+            }
             Time.timeScale = 0;
         }
     }
