@@ -11,6 +11,7 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private float wanderRadius;
     [SerializeField] private LayerMask groundMask; //objektit, joilla on t‰m‰ layer, on maata
 
+
     [SerializeField] private SpriteRenderer characterSprite;
 
     [HideInInspector]public Vector2 axis; //k‰ytet‰‰n siihen, ett‰ sprite katsoo menosuuntaan...

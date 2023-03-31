@@ -36,6 +36,9 @@ public class PlayerDetect : MonoBehaviour
     private AnalogGlitchVolume analogGlitch;
     private DigitalGlitchVolume digitalGlitch;
 
+    [SerializeField] private Animator enemyAnim;
+    [SerializeField] private string surprisedAnim; //animaatio, kun yllätytään
+
     // Start is called before the first frame update
     void Start()
     {
@@ -107,6 +110,9 @@ public class PlayerDetect : MonoBehaviour
                     Debug.Log("HAAHAA OLET NÄKYVISSÄ....");
                     meshRenderer.material = redMaterial;
                     isSeen = true;
+
+                    enemyAnim.Play(surprisedAnim);
+
                     StartCoroutine(takeTimeOff());
                     StartCoroutine(GlitchEffect());
                     GameManager.instance.kelloAnim.SetBool("alert", true);

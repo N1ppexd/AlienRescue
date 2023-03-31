@@ -5165,6 +5165,8 @@ MonoBehaviour:
   normalMaterial: {fileID: 2100000, guid: 3734d529e52f049428a7e00672b43ec3, type: 2}
   redMaterial: {fileID: 2100000, guid: 7e86d5361d813fb408b74f8739ee7509, type: 2}
   volume: {fileID: 0}
+  enemyAnim: {fileID: 2478933210462185951}
+  surprisedAnim: puistonvartija_surprised
   enemyAxis: {x: 0, y: 0, z: 0}
   targets: []
 --- !u!1 &2478933210462185949
@@ -5357,7 +5359,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 100
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
