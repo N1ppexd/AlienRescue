@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
@@ -11,7 +12,7 @@ public class SettingsMenu : MonoBehaviour
 
     [SerializeField] GameObject settingsPanel; //laitetaan pois p‰‰lt‰, kun poistutaan...
 
-    [SerializeField] Dropdown resolution, windowMode;
+    [SerializeField] TMP_Dropdown resolution, windowMode;
 
     [SerializeField] Slider musicVolSlider, effectsVolSlider;
 

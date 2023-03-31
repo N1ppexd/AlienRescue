@@ -9107,8 +9107,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   settingsPanel: {fileID: 1815997546}
-  resolution: {fileID: 0}
-  windowMode: {fileID: 0}
+  resolution: {fileID: 1552335561}
+  windowMode: {fileID: 968018427}
   musicVolSlider: {fileID: 620592180}
   effectsVolSlider: {fileID: 1923287089}
   soundEffects: {fileID: 24100000, guid: a09f791084362d8408c9559174d1bd7f, type: 2}
