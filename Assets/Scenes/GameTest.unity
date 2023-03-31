@@ -543,6 +543,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_kaari_polku
       objectReference: {fileID: 0}
+    - target: {fileID: 1161610353605110111, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4503866957999725620, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
         type: 3}
       propertyPath: m_FlipX
@@ -642,6 +647,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_kaari_polku (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
@@ -1992,6 +2002,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_kaari_polku (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1161610353605110111, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4503866957999725620, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
         type: 3}
       propertyPath: m_FlipX
@@ -2785,6 +2800,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_kaari_polku
+      objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
@@ -3674,6 +3694,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: huussi
       objectReference: {fileID: 0}
+    - target: {fileID: 7988620187152412642, guid: 3a6dbc60b5bf2ba419167922bb788130,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a6dbc60b5bf2ba419167922bb788130, type: 3}
 --- !u!4 &144841471 stripped
@@ -3908,6 +3933,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_suora_polku (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
@@ -4556,6 +4586,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: teltta (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714349629945757176, guid: 46cafec4a8956214a90331384a50d474,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46cafec4a8956214a90331384a50d474, type: 3}
@@ -5588,6 +5623,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: iso_suora_polku (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
 --- !u!1001 &212950975
@@ -5821,6 +5861,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: iso_kaari_polku (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
       propertyPath: m_RootOrder
@@ -5899,6 +5944,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_kaari_polku (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
@@ -6900,6 +6950,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: iso_suora_polku (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
 --- !u!1001 &250805863
@@ -6913,6 +6968,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_kaari_polku (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
@@ -7073,6 +7133,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pieni_suora_polku (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7134215778763427840, guid: c96ae9927086d9d4caf388c076f6078e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c96ae9927086d9d4caf388c076f6078e, type: 3}
@@ -7454,6 +7519,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pieni_suora_polku (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7134215778763427840, guid: c96ae9927086d9d4caf388c076f6078e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c96ae9927086d9d4caf388c076f6078e, type: 3}
@@ -8263,6 +8333,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_kaari_polku (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1161610353605110111, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4503866957999725620, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
         type: 3}
       propertyPath: m_FlipX
@@ -8361,6 +8436,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_suora_polku (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
@@ -8631,6 +8711,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_suora_polku (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
@@ -9253,6 +9338,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_suora_polku (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
@@ -9886,6 +9976,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_suora_polku (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7134215778763427840, guid: c96ae9927086d9d4caf388c076f6078e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c96ae9927086d9d4caf388c076f6078e, type: 3}
 --- !u!4 &384129337 stripped
@@ -10121,6 +10216,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_suora_polku (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7134215778763427840, guid: c96ae9927086d9d4caf388c076f6078e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c96ae9927086d9d4caf388c076f6078e, type: 3}
 --- !u!1001 &404124454
@@ -10134,6 +10234,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: kirves
+      objectReference: {fileID: 0}
+    - target: {fileID: 240921241003216889, guid: cc616c7f8dd14b745be19f2351f1e7af,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1936228038294954762, guid: cc616c7f8dd14b745be19f2351f1e7af,
         type: 3}
@@ -10215,6 +10320,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_kaari_polku (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
@@ -11030,6 +11140,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: iso_suora_polku (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
 --- !u!4 &438620932 stripped
@@ -11549,6 +11664,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: teltta
       objectReference: {fileID: 0}
+    - target: {fileID: 8714349629945757176, guid: 46cafec4a8956214a90331384a50d474,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46cafec4a8956214a90331384a50d474, type: 3}
 --- !u!4 &455545773 stripped
@@ -11932,6 +12052,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: iso_kaari_polku (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
       propertyPath: m_RootOrder
@@ -12066,6 +12191,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_kaari_polku (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1161610353605110111, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2597733d5e5258b4c88ea1c104a5d2e9, type: 3}
 --- !u!1001 &490717179
@@ -12144,6 +12274,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pieni_suora_polku (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7134215778763427840, guid: c96ae9927086d9d4caf388c076f6078e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c96ae9927086d9d4caf388c076f6078e, type: 3}
@@ -12577,6 +12712,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_suora_polku (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
@@ -13098,6 +13238,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: iso_kaari_polku
       objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
       propertyPath: m_RootOrder
@@ -13495,6 +13640,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: iso_suora_polku (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
 --- !u!1001 &562468796
@@ -13704,6 +13854,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_suora_polku (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
@@ -14007,6 +14162,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pieni_suora_polku
+      objectReference: {fileID: 0}
+    - target: {fileID: 7134215778763427840, guid: c96ae9927086d9d4caf388c076f6078e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c96ae9927086d9d4caf388c076f6078e, type: 3}
@@ -14932,6 +15092,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_kaari_polku (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1161610353605110111, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2597733d5e5258b4c88ea1c104a5d2e9, type: 3}
 --- !u!1001 &636408835
@@ -15231,6 +15396,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: teltta
       objectReference: {fileID: 0}
+    - target: {fileID: 8714349629945757176, guid: 46cafec4a8956214a90331384a50d474,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46cafec4a8956214a90331384a50d474, type: 3}
 --- !u!4 &639720231 stripped
@@ -15330,6 +15500,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "m\xF6kki"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1374667282890385310, guid: 9901d348ebb0aa7429b37b67dcfc9a68,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9020092642042934065, guid: 9901d348ebb0aa7429b37b67dcfc9a68,
         type: 3}
@@ -15614,6 +15789,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pieni_suora_polku (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7134215778763427840, guid: c96ae9927086d9d4caf388c076f6078e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c96ae9927086d9d4caf388c076f6078e, type: 3}
@@ -16553,6 +16733,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_kaari_polku (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1161610353605110111, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4503866957999725620, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
         type: 3}
       propertyPath: m_FlipX
@@ -16790,6 +16975,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: kirves (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 240921241003216889, guid: cc616c7f8dd14b745be19f2351f1e7af,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1936228038294954762, guid: cc616c7f8dd14b745be19f2351f1e7af,
         type: 3}
@@ -17390,6 +17580,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_kaari_polku (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1161610353605110111, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2597733d5e5258b4c88ea1c104a5d2e9, type: 3}
 --- !u!1001 &707545820
@@ -17595,6 +17790,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_kaari_polku (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
@@ -18861,6 +19061,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: iso_kaari_polku (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
       propertyPath: m_RootOrder
@@ -18934,6 +19139,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: lampi
+      objectReference: {fileID: 0}
+    - target: {fileID: 248914793069075396, guid: 3a864e10bffd73c44a358a8e5193b4f1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8638314461712218679, guid: 3a864e10bffd73c44a358a8e5193b4f1,
         type: 3}
@@ -19218,6 +19428,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: teltta (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714349629945757176, guid: 46cafec4a8956214a90331384a50d474,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46cafec4a8956214a90331384a50d474, type: 3}
@@ -20440,6 +20655,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: iso_suora_polku
       objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
 --- !u!4 &799242792 stripped
@@ -20459,6 +20679,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_kaari_polku (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
@@ -20716,6 +20941,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pieni_kaari_polku (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1161610353605110111, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2597733d5e5258b4c88ea1c104a5d2e9, type: 3}
@@ -21084,6 +21314,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: iso_suora_polku (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
 --- !u!4 &814429127 stripped
@@ -21174,6 +21409,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: penkki
       objectReference: {fileID: 0}
+    - target: {fileID: 7766601699487879916, guid: d0bb248829d686d4f86b5e4574c2b1d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0bb248829d686d4f86b5e4574c2b1d4, type: 3}
 --- !u!4 &817573081 stripped
@@ -21199,6 +21439,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_kaari_polku
+      objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
@@ -21498,6 +21743,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: huussi (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7988620187152412642, guid: 3a6dbc60b5bf2ba419167922bb788130,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a6dbc60b5bf2ba419167922bb788130, type: 3}
@@ -21954,6 +22204,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: penkki (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766601699487879916, guid: d0bb248829d686d4f86b5e4574c2b1d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0bb248829d686d4f86b5e4574c2b1d4, type: 3}
@@ -22493,6 +22748,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_suora_polku (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
@@ -24484,6 +24744,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_suora_polku (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7134215778763427840, guid: c96ae9927086d9d4caf388c076f6078e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c96ae9927086d9d4caf388c076f6078e, type: 3}
 --- !u!4 &941855709 stripped
@@ -25740,6 +26005,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: teltta
       objectReference: {fileID: 0}
+    - target: {fileID: 8714349629945757176, guid: 46cafec4a8956214a90331384a50d474,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46cafec4a8956214a90331384a50d474, type: 3}
 --- !u!4 &986410303 stripped
@@ -25971,6 +26241,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_kaari_polku (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1161610353605110111, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4503866957999725620, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
         type: 3}
       propertyPath: m_FlipX
@@ -26199,6 +26474,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: iso_suora_polku (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
 --- !u!1001 &1008248719
@@ -26414,6 +26694,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_kaari_polku (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
@@ -26927,6 +27212,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: iso_suora_polku
       objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
 --- !u!1001 &1027865127
@@ -27065,6 +27355,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: iso_suora_polku (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
 --- !u!4 &1030732485 stripped
@@ -27145,6 +27440,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: penkki (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7766601699487879916, guid: d0bb248829d686d4f86b5e4574c2b1d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0bb248829d686d4f86b5e4574c2b1d4, type: 3}
 --- !u!1 &1031981750
@@ -27162,7 +27462,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1031981751
 Transform:
@@ -28193,6 +28493,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: iso_kaari_polku (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
       propertyPath: m_RootOrder
@@ -29181,6 +29486,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: iso_suora_polku
       objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
 --- !u!1001 &1091819971
@@ -30019,6 +30329,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_suora_polku (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7134215778763427840, guid: c96ae9927086d9d4caf388c076f6078e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c96ae9927086d9d4caf388c076f6078e, type: 3}
 --- !u!1001 &1129395971
@@ -30156,6 +30471,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pieni_kaari_polku
+      objectReference: {fileID: 0}
+    - target: {fileID: 1161610353605110111, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4503866957999725620, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
         type: 3}
@@ -31773,6 +32093,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_kaari_polku (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1161610353605110111, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2597733d5e5258b4c88ea1c104a5d2e9, type: 3}
 --- !u!4 &1201388917 stripped
@@ -32228,6 +32553,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_kaari_polku
       objectReference: {fileID: 0}
+    - target: {fileID: 1161610353605110111, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2597733d5e5258b4c88ea1c104a5d2e9, type: 3}
 --- !u!1001 &1226154770
@@ -32306,6 +32636,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pieni_kaari_polku
+      objectReference: {fileID: 0}
+    - target: {fileID: 1161610353605110111, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4503866957999725620, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
         type: 3}
@@ -32671,6 +33006,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "m\xF6kki (1)"
       objectReference: {fileID: 0}
+    - target: {fileID: 1374667282890385310, guid: 9901d348ebb0aa7429b37b67dcfc9a68,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9020092642042934065, guid: 9901d348ebb0aa7429b37b67dcfc9a68,
         type: 3}
       propertyPath: m_RootOrder
@@ -32800,6 +33140,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_suora_polku
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
@@ -34567,6 +34912,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_suora_polku (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7134215778763427840, guid: c96ae9927086d9d4caf388c076f6078e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c96ae9927086d9d4caf388c076f6078e, type: 3}
 --- !u!1 &1337959694
@@ -35144,6 +35494,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pieni_suora_polku
+      objectReference: {fileID: 0}
+    - target: {fileID: 7134215778763427840, guid: c96ae9927086d9d4caf388c076f6078e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c96ae9927086d9d4caf388c076f6078e, type: 3}
@@ -36061,6 +36416,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: teltta (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8714349629945757176, guid: 46cafec4a8956214a90331384a50d474,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46cafec4a8956214a90331384a50d474, type: 3}
 --- !u!4 &1401382324 stripped
@@ -36728,6 +37088,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: iso_suora_polku (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
 --- !u!1001 &1437606575
@@ -36741,6 +37106,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_kaari_polku (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
@@ -36917,6 +37287,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_kaari_polku (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
@@ -37230,6 +37605,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_suora_polku
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
@@ -37608,6 +37988,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "m\xF6kki"
       objectReference: {fileID: 0}
+    - target: {fileID: 1374667282890385310, guid: 9901d348ebb0aa7429b37b67dcfc9a68,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9020092642042934065, guid: 9901d348ebb0aa7429b37b67dcfc9a68,
         type: 3}
       propertyPath: m_RootOrder
@@ -37925,6 +38310,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: kirves
       objectReference: {fileID: 0}
+    - target: {fileID: 240921241003216889, guid: cc616c7f8dd14b745be19f2351f1e7af,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1936228038294954762, guid: cc616c7f8dd14b745be19f2351f1e7af,
         type: 3}
       propertyPath: m_RootOrder
@@ -38190,6 +38580,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_suora_polku (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
@@ -38573,6 +38968,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pieni_suora_polku (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7134215778763427840, guid: c96ae9927086d9d4caf388c076f6078e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c96ae9927086d9d4caf388c076f6078e, type: 3}
@@ -41478,6 +41878,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_kaari_polku (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1161610353605110111, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2597733d5e5258b4c88ea1c104a5d2e9, type: 3}
 --- !u!4 &1604763065 stripped
@@ -41719,6 +42124,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: penkki
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766601699487879916, guid: d0bb248829d686d4f86b5e4574c2b1d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0bb248829d686d4f86b5e4574c2b1d4, type: 3}
@@ -42409,6 +42819,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_suora_polku (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7134215778763427840, guid: c96ae9927086d9d4caf388c076f6078e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c96ae9927086d9d4caf388c076f6078e, type: 3}
 --- !u!1001 &1627208200
@@ -42637,6 +43052,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: teltta (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714349629945757176, guid: 46cafec4a8956214a90331384a50d474,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46cafec4a8956214a90331384a50d474, type: 3}
@@ -42900,6 +43320,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_kaari_polku (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
@@ -43473,6 +43898,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_suora_polku
       objectReference: {fileID: 0}
+    - target: {fileID: 7134215778763427840, guid: c96ae9927086d9d4caf388c076f6078e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c96ae9927086d9d4caf388c076f6078e, type: 3}
 --- !u!4 &1660208376 stripped
@@ -43653,6 +44083,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_kaari_polku
+      objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
@@ -43964,6 +44399,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pieni_suora_polku (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7134215778763427840, guid: c96ae9927086d9d4caf388c076f6078e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c96ae9927086d9d4caf388c076f6078e, type: 3}
@@ -44277,6 +44717,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_kaari_polku
+      objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
@@ -45268,6 +45713,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: joki
+      objectReference: {fileID: 0}
+    - target: {fileID: 112483842371440328, guid: 5dae288663eca6a40b9fdf67b7be30f4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6810640334622711333, guid: 5dae288663eca6a40b9fdf67b7be30f4,
         type: 3}
@@ -46304,6 +46754,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_suora_polku (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7134215778763427840, guid: c96ae9927086d9d4caf388c076f6078e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c96ae9927086d9d4caf388c076f6078e, type: 3}
 --- !u!4 &1750858346 stripped
@@ -46765,6 +47220,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pieni_kaari_polku
+      objectReference: {fileID: 0}
+    - target: {fileID: 1161610353605110111, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2597733d5e5258b4c88ea1c104a5d2e9, type: 3}
@@ -47263,6 +47723,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: iso_kaari_polku (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
       propertyPath: m_RootOrder
@@ -47417,6 +47882,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_kaari_polku
+      objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
@@ -48986,6 +49456,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: iso_suora_polku (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
 --- !u!1001 &1873771873
@@ -49378,6 +49853,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_suora_polku (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
@@ -50462,6 +50942,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_suora_polku (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7134215778763427840, guid: c96ae9927086d9d4caf388c076f6078e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c96ae9927086d9d4caf388c076f6078e, type: 3}
 --- !u!1001 &1939216861
@@ -50700,6 +51185,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_kaari_polku (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
@@ -51536,6 +52026,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: punapuu
       objectReference: {fileID: 0}
+    - target: {fileID: 8964838004968949919, guid: 9a01cc222f0d28942a0b751fde458354,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a01cc222f0d28942a0b751fde458354, type: 3}
 --- !u!1001 &1978706043
@@ -51842,6 +52337,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_suora_polku (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7134215778763427840, guid: c96ae9927086d9d4caf388c076f6078e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c96ae9927086d9d4caf388c076f6078e, type: 3}
 --- !u!1001 &1992844726
@@ -51855,6 +52355,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_kaari_polku (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 866804675760383560, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4759661707572096487, guid: b03ab9ab5aa9f44429ec9bed196eba1b,
         type: 3}
@@ -52139,6 +52644,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pieni_kaari_polku (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1161610353605110111, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4503866957999725620, guid: 2597733d5e5258b4c88ea1c104a5d2e9,
         type: 3}
@@ -52535,6 +53045,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pieni_suora_polku (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7134215778763427840, guid: c96ae9927086d9d4caf388c076f6078e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c96ae9927086d9d4caf388c076f6078e, type: 3}
@@ -53880,6 +54395,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pieni_suora_polku (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7134215778763427840, guid: c96ae9927086d9d4caf388c076f6078e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c96ae9927086d9d4caf388c076f6078e, type: 3}
 --- !u!1001 &2097309354
@@ -54217,6 +54737,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: iso_suora_polku (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935202702552616264, guid: 35f37a88bf654914ba30f874b5543319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35f37a88bf654914ba30f874b5543319, type: 3}
