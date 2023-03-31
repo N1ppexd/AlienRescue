@@ -1314,7 +1314,7 @@ MonoBehaviour:
   m_EndPoint: {x: -2.7050972, y: -2.979585, z: -0.10386433}
   m_Width: 0
   m_CostModifier: -1
-  m_Bidirectional: 1
+  m_Bidirectional: 0
   m_AutoUpdatePosition: 0
   m_Area: 0
 --- !u!4 &20998587
@@ -15758,7 +15758,7 @@ MonoBehaviour:
   m_LayerMask:
     serializedVersion: 2
     m_Bits: 8960
-  m_UseGeometry: 1
+  m_UseGeometry: 0
   m_DefaultArea: 0
   m_IgnoreNavMeshAgent: 1
   m_IgnoreNavMeshObstacle: 1
@@ -42371,7 +42371,7 @@ MonoBehaviour:
   m_EndPoint: {x: -1.899704, y: -2.9927616, z: 0.09801553}
   m_Width: 0
   m_CostModifier: -1
-  m_Bidirectional: 1
+  m_Bidirectional: 0
   m_AutoUpdatePosition: 0
   m_Area: 0
 --- !u!4 &1382825811 stripped
@@ -64848,7 +64848,7 @@ MonoBehaviour:
   m_EndPoint: {x: 12.165504, y: -1.8008468, z: 1.9623439}
   m_Width: 0
   m_CostModifier: -1
-  m_Bidirectional: 1
+  m_Bidirectional: 0
   m_AutoUpdatePosition: 0
   m_Area: 0
 --- !u!1001 &2132709068
