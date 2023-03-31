@@ -10330,6 +10330,7 @@ GameObject:
   - component: {fileID: 1808576190}
   - component: {fileID: 1808576194}
   - component: {fileID: 1808576195}
+  - component: {fileID: 1808576196}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -10433,6 +10434,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   settingsPanel: {fileID: 1815997546}
+  settingsDefaultButton: {fileID: 968018425}
+  mainMenuDefaultButton: {fileID: 1786289401}
+  playerInput: {fileID: 1808576196}
 --- !u!82 &1808576195
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10442,7 +10446,8 @@ AudioSource:
   m_GameObject: {fileID: 1808576189}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: a09f791084362d8408c9559174d1bd7f,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 97f799c1803b0cb4da1d2fc01030694f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -10529,6 +10534,37 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1808576196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808576189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: d4a44839fac8f894681c8719d3962ee4,
+    type: 3}
+  m_NotificationBehavior: 3
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &1813660023
 GameObject:
   m_ObjectHideFlags: 0
