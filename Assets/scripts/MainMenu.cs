@@ -17,6 +17,7 @@ public class MainMenu : MonoBehaviour
     private void Awake()
     {
         Time.timeScale = 1;
+        playerInput.enabled = true;
         playerInput.onControlsChanged += _ => ControlsChanged(playerInput.currentControlScheme);
     }
 
@@ -46,7 +47,7 @@ public class MainMenu : MonoBehaviour
         if(mode == "Gamepad")
         {
             EventSystem.current.firstSelectedGameObject = null;
-            EventSystem.current.SetSelectedGameObject(settingsDefaultButton);
+            EventSystem.current.SetSelectedGameObject(mainMenuDefaultButton);
         }
     }
 }
