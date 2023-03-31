@@ -512,6 +512,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StartTextCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 2084580679754277163, guid: 404e94b9fd6c2cf48a7ab7d8e22506ed,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2412875860026254432, guid: 404e94b9fd6c2cf48a7ab7d8e22506ed,
         type: 3}
       propertyPath: m_text
