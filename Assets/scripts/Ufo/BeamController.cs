@@ -19,6 +19,8 @@ public class BeamController : MonoBehaviour
 
     [SerializeField] private AudioSource alienCaptureSound; //‰‰‰ni, joka kuuluu, kun alieni napataan.
 
+    [SerializeField] private Animator beamAnim;
+
     private void Awake()
     {
         if(instance == null)
@@ -43,10 +45,20 @@ public class BeamController : MonoBehaviour
         }
         else if (!isEnabled && beam != null)
         {
-            beam.SetActive(false);
-            beamAudio.Stop();
+            beamAnim.Play("BeamStop");
+
+            StartCoroutine(wait());
+
+            
         }
 
+    }
+
+    IEnumerator wait()
+    {
+        yield return new WaitForSeconds(0.5f);
+        beam.SetActive(false);
+        beamAudio.Stop();
     }
     public void OnCaptureAlien()
     {
