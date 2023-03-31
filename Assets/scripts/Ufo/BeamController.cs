@@ -41,6 +41,8 @@ public class BeamController : MonoBehaviour
         if (isEnabled && beam != null)
         {
             beam.SetActive(true);
+            StopAllCoroutines();
+            beamAnim.Play("BeamStart");
             beamAudio.Play();
         }
         else if (!isEnabled && beam != null)
