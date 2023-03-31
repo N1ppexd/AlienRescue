@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 public class UIButtons : MonoBehaviour
 {
 
+    private void Awake()
+    {
+        Time.timeScale = 1;
+    }
 
     public void MainMenu()  //kun painetaan mainmenu nappia
     {
@@ -28,6 +32,6 @@ public class UIButtons : MonoBehaviour
     public void RestartLvl()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
     }
 }
