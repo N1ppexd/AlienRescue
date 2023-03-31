@@ -1304,17 +1304,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20998585}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6eeb5dc026fdf4b488bc7ae0138ab719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_AgentTypeID: 0
-  m_StartPoint: {x: 2.2724037, y: 1.1664366, z: 0.22012384}
-  m_EndPoint: {x: -2.7050972, y: -2.979585, z: -0.10386433}
+  m_StartPoint: {x: -0.00000756979, y: 2.0730143, z: -2.4940164}
+  m_EndPoint: {x: -0.000007659197, y: -2.0730143, z: 2.4940174}
   m_Width: 0
   m_CostModifier: -1
-  m_Bidirectional: 0
+  m_Bidirectional: 1
   m_AutoUpdatePosition: 0
   m_Area: 0
 --- !u!4 &20998587
@@ -1324,9 +1324,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20998585}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -35.2747, y: 132.97476, z: -221.81094}
-  m_LocalScale: {x: 0.7, y: 0.6999999, z: 0.6999999}
+  m_LocalRotation: {x: -0.48348907, y: 0.51598275, z: 0.515983, w: -0.48348916}
+  m_LocalPosition: {x: -35.491047, y: 132.91663, z: -222.71751}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2045025867}
@@ -42343,9 +42343,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1381814456}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 36.13, y: 132.97476, z: -246.99}
-  m_LocalScale: {x: 0.7, y: 0.6999999, z: 0.6999999}
+  m_LocalRotation: {x: 0.50459576, y: -0.4953615, z: -0.49536172, w: 0.5045958}
+  m_LocalPosition: {x: 35.814667, y: 132.906, z: -247.42319}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 855021662}
@@ -42411,17 +42411,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1381814456}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6eeb5dc026fdf4b488bc7ae0138ab719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_AgentTypeID: 0
-  m_StartPoint: {x: 1.2690353, y: 2.1263878, z: 0.039486866}
-  m_EndPoint: {x: -1.899704, y: -2.9927616, z: 0.09801553}
+  m_StartPoint: {x: -0.0000024270266, y: 2.559571, z: -1.5846395}
+  m_EndPoint: {x: 0.0000024270266, y: -2.5595863, z: 1.5846395}
   m_Width: 0
   m_CostModifier: -1
-  m_Bidirectional: 0
+  m_Bidirectional: 1
   m_AutoUpdatePosition: 0
   m_Area: 0
 --- !u!4 &1382825811 stripped
