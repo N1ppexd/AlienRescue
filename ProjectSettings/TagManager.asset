@@ -53,3 +53,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: FOG
+    uniqueID: 4069448513
+    locked: 0
