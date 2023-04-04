@@ -10,9 +10,9 @@ public class GamePauser : MonoBehaviour
 
     private InputMaster inputMaster;
 
-    private bool pauseState;
+    private bool pauseState, optionsState;
 
-    [SerializeField] private GameObject pauseScreen, 
+    [SerializeField] private GameObject pauseScreen, optionsScreen,
         defaultSelectedObj, 
         optionsDefaultSelectedObj;//default selected obj on defaultti homma joka mennee pällle, kun käöytetöön oihjainta
 
@@ -48,7 +48,7 @@ public class GamePauser : MonoBehaviour
         {
             isGamepad = true;
 
-            if (pauseState)
+            if (pauseState ||optionsState)
                 SetDefaultSelectedObj();
         }
         else
@@ -83,12 +83,32 @@ public class GamePauser : MonoBehaviour
 
     public void OptionsMenu()
     {
+        optionsState = true;
+        optionsScreen.SetActive(true);
 
+        if(isGamepad)
+            SetDefaultSelectedObj();
+    }
+    public void OptionsMenuBack()
+    {
+        optionsState = false;
+        optionsScreen.SetActive(false);
+
+        if (isGamepad)
+            SetDefaultSelectedObj();
     }
 
     void SetDefaultSelectedObj()
     {
-        EventSystem.current.firstSelectedGameObject = null;
-        EventSystem.current.SetSelectedGameObject(defaultSelectedObj); //laitetaan tämä päälle...
+        if (pauseState)
+        {
+            EventSystem.current.firstSelectedGameObject = null;
+            EventSystem.current.SetSelectedGameObject(defaultSelectedObj); //laitetaan tämä päälle...
+        }
+        if (optionsState)
+        {
+            EventSystem.current.firstSelectedGameObject = null;
+            EventSystem.current.SetSelectedGameObject(optionsDefaultSelectedObj); //laitetaan tämä päälle...
+        }
     }
 }
