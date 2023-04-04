@@ -5000,9 +5000,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2386908528231092044}
-        m_TargetAssemblyTypeName: UIButtons, Assembly-CSharp
-        m_MethodName: QuitGame
+      - m_Target: {fileID: 8677658459812993323}
+        m_TargetAssemblyTypeName: GamePauser, Assembly-CSharp
+        m_MethodName: OptionsMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6483,7 +6483,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerInput: {fileID: 0}
   pauseScreen: {fileID: 2468176774485169694}
+  optionsScreen: {fileID: 4845995040453499704}
   defaultSelectedObj: {fileID: 3470364476718229092}
+  optionsDefaultSelectedObj: {fileID: 6760134125574054547}
 --- !u!114 &2386908528231092044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7524,9 +7526,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
-        m_MethodName: GoBack
+      - m_Target: {fileID: 8677658459812993323}
+        m_TargetAssemblyTypeName: GamePauser, Assembly-CSharp
+        m_MethodName: OptionsMenuBack
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
