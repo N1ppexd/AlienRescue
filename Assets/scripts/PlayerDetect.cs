@@ -110,7 +110,8 @@ public class PlayerDetect : MonoBehaviour
                 float distToTarget = Vector3.Distance(transform.position + targetDir, transform.position);
                 if (!Physics.Raycast(transform.position, targetDir, distToTarget, whatIsObstacle))//jos välissä ei ole esteitä
                 {
-                    yellShock.Play();
+                    if(!yellShock.isPlaying)
+                        yellShock.Play();
 
                     targets.Add(target);//lisätään ufo listaan..
                     Debug.Log("HAAHAA OLET NÄKYVISSÄ....");
