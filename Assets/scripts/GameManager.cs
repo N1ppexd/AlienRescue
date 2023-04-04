@@ -29,6 +29,8 @@ public class GameManager : MonoBehaviour
 
     public AudioSource glitchAudio;
     public Animator kelloAnim;
+
+    [SerializeField] private AudioSource[] audios;
     private void Awake()
     {
         if (instance == null)
@@ -64,6 +66,9 @@ public class GameManager : MonoBehaviour
                 EventSystem.current.firstSelectedGameObject = null;
                 EventSystem.current.SetSelectedGameObject(LoseScreenDefaultButton);
             }
+
+            foreach(AudioSource audio in audios) //laitetaan musiikit sun muut pois p‰‰lt‰
+                audio.Stop();
                 
             Time.timeScale = 0f;
             //lostScreenAnim.Play(lostScreenAnimName);
@@ -86,6 +91,10 @@ public class GameManager : MonoBehaviour
                 EventSystem.current.firstSelectedGameObject = null;
                 EventSystem.current.SetSelectedGameObject(winScreenDefaultButton);
             }
+
+            foreach (AudioSource audio in audios) //laitetaan musiikit sun muut pois p‰‰lt‰
+                audio.Stop();
+
             Time.timeScale = 0;
         }
     }
