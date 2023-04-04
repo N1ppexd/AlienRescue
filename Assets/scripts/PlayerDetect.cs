@@ -55,7 +55,8 @@ public class PlayerDetect : MonoBehaviour
     private void LateUpdate()
     {
         enemyAxis = new Vector3(enemyAi.axis.x, 0, enemyAi.axis.y);
-        lookDirTransform.LookAt(transform.position + enemyAxis * 5);
+        //lookDirTransform.LookAt(transform.position + enemyAxis * 5);
+        lookDirTransform.rotation = Quaternion.RotateTowards(lookDirTransform.rotation, Quaternion.LookRotation(enemyAxis * 5), 100 * Time.deltaTime);
         DrawFieldOfView();
 
         
