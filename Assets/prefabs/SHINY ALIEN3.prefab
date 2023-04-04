@@ -172,6 +172,7 @@ GameObject:
   - component: {fileID: 6039128716365902856}
   - component: {fileID: 5521471765386606928}
   - component: {fileID: 2634026063601760722}
+  - component: {fileID: -1094976306352211750}
   m_Layer: 11
   m_Name: SHINY ALIEN3
   m_TagString: alien
@@ -242,6 +243,22 @@ CapsuleCollider:
   m_Height: 2.795842
   m_Direction: 1
   m_Center: {x: 0, y: 1.3801581, z: 0}
+--- !u!208 &-1094976306352211750
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291423219137995518}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 4, y: 1, z: 4}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1388246894897173449
 GameObject:
   m_ObjectHideFlags: 0
