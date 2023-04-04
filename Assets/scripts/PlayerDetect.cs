@@ -19,10 +19,11 @@ public class PlayerDetect : MonoBehaviour
 
     [SerializeField] private EnemyAI enemyAi;
 
+    
     public float seeRadius;
     public float seeHeightOffset, viewAngle;
-
     public float meshResolution;
+
 
     public LayerMask whatIsUfo, whatIsObstacle;
 
@@ -30,15 +31,16 @@ public class PlayerDetect : MonoBehaviour
     [SerializeField] private MeshRenderer meshRenderer; //meshfiltteri‰ k‰ytet‰‰n meshiin, meshrendereri‰ meshin materiaaliin
     private Mesh mesh;
 
+
     [SerializeField] private Material normalMaterial, redMaterial;
 
     [SerializeField] private Volume volume;
     private AnalogGlitchVolume analogGlitch;
     private DigitalGlitchVolume digitalGlitch;
 
+
     [SerializeField] private Animator enemyAnim;
     [SerializeField] private string surprisedAnim; //animaatio, kun yll‰tyt‰‰n
-
 
     [SerializeField] AudioSource yellShock, pullYell; //ihminen huutaa, kun se n‰kee ufon
 
@@ -63,8 +65,6 @@ public class PlayerDetect : MonoBehaviour
         //lookDirTransform.LookAt(transform.position + enemyAxis * 5);
         lookDirTransform.rotation = Quaternion.RotateTowards(lookDirTransform.rotation, Quaternion.LookRotation(enemyAxis * 5), 100 * Time.deltaTime);
         DrawFieldOfView();
-
-        
     }
 
     public void PullPlayer()

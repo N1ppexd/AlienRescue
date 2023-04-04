@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int aliensToCapture; //kuink amonta alienia pit‰‰ saada kiinni..
 
     [SerializeField] private Slider ajastin; //t‰m‰ liikkuu nollaan....
+    [SerializeField] Image ajastinFill;
 
     [SerializeField] private GameObject lostScreen, winScreen;
 
@@ -72,6 +73,11 @@ public class GameManager : MonoBehaviour
                 
             Time.timeScale = 0f;
             //lostScreenAnim.Play(lostScreenAnimName);
+        }
+
+        if(levelDuration <= maxLevelDuration / 5) //jos aikaa on alle tai yht‰paljonl, kuin levelin maksimi ajasta 20 prosenttia....
+        {
+            ajastinFill.color = Color.red;
         }
 
     }
