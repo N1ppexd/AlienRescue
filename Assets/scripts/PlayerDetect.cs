@@ -39,6 +39,9 @@ public class PlayerDetect : MonoBehaviour
     [SerializeField] private Animator enemyAnim;
     [SerializeField] private string surprisedAnim; //animaatio, kun yllätytään
 
+
+    [SerializeField] AudioSource yellShock; //ihminen huutaa, kun se näkee ufon
+
     // Start is called before the first frame update
     void Start()
     {
@@ -107,6 +110,8 @@ public class PlayerDetect : MonoBehaviour
                 float distToTarget = Vector3.Distance(transform.position + targetDir, transform.position);
                 if (!Physics.Raycast(transform.position, targetDir, distToTarget, whatIsObstacle))//jos välissä ei ole esteitä
                 {
+                    yellShock.Play();
+
                     targets.Add(target);//lisätään ufo listaan..
                     Debug.Log("HAAHAA OLET NÄKYVISSÄ....");
                     meshRenderer.material = redMaterial;
