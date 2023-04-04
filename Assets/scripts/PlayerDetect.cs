@@ -40,7 +40,9 @@ public class PlayerDetect : MonoBehaviour
     [SerializeField] private string surprisedAnim; //animaatio, kun yll‰tyt‰‰n
 
 
-    [SerializeField] AudioSource yellShock; //ihminen huutaa, kun se n‰kee ufon
+    [SerializeField] AudioSource yellShock, pullYell; //ihminen huutaa, kun se n‰kee ufon
+
+    public bool isBeamed;
 
     // Start is called before the first frame update
     void Start()
@@ -65,6 +67,20 @@ public class PlayerDetect : MonoBehaviour
         
     }
 
+    public void PullPlayer()
+    {
+        isBeamed = true;
+        StartCoroutine(PullPlayerCoroutine());
+    }
+
+    IEnumerator PullPlayerCoroutine()
+    {
+        meshRenderer.gameObject.SetActive(false);
+        yield return new WaitForSeconds(2);
+        meshRenderer.gameObject.SetActive(true);
+        isBeamed=false;
+    }
+
     private bool isSeen;
     IEnumerator LookForUfo()
     {
@@ -79,7 +95,14 @@ public class PlayerDetect : MonoBehaviour
 
         
     }
-
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("beam"))
+        {
+            pullYell.Play();
+            PullPlayer();
+        }
+    }
 
     public List<Transform> targets = new List<Transform>(); //targetit, jotka on vihollisen fovin sis‰ll‰.
     private void FOVCheck()
@@ -89,6 +112,8 @@ public class PlayerDetect : MonoBehaviour
         Vector3 lookPositionVector = lookDirTransform.position + transform.up * ufo.transform.position.y;
         Collider[] rangeChecks = Physics.OverlapSphere(lookPositionVector, seeRadius, whatIsUfo);
 
+        if (isBeamed)
+            return;
         
         //float playerRotation = Vector3.Angle(enemyAxis, transform.forward);
 
