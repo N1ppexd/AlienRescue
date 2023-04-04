@@ -18,6 +18,8 @@ public class UfoMovement : MonoBehaviour
 
     bool fastMove; //t‰m‰ on true, kun shifti‰ painetaan pohjassa...
 
+    [SerializeField] GameObject fastCamera, normalCamera;
+
     private void Awake()
     {
         inputMaster = new InputMaster();
@@ -49,9 +51,22 @@ public class UfoMovement : MonoBehaviour
         movementAxis = new Vector3(axis.x, 0, axis.y);
 
         if (!fastMove)
+        {
             rb.velocity = movementAxis.normalized * speed; //lis‰t‰‰n noppeus...
-        if(fastMove)
+            if (fastCamera.activeSelf)
+            {
+                fastCamera.SetActive(false);
+                
+            }
+        }
+        if (fastMove)
+        {
             rb.AddForce(movementAxis.normalized * speed * 100 * Time.deltaTime); //lis‰t‰‰n noppeus...
+            if (!fastCamera.activeSelf)
+            {
+                fastCamera.SetActive(true);
+            }
+        }
 
         Quaternion rotation = Quaternion.Euler(Vector3.Cross(transform.up, rb.velocity.normalized) * tiltAmount);
         transform.GetChild(0).rotation = Quaternion.Slerp(transform.rotation, rotation, smoothSpeed);
