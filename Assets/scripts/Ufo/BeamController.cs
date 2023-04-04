@@ -58,7 +58,7 @@ public class BeamController : MonoBehaviour
 
     IEnumerator wait()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.2f);
         beam.SetActive(false);
         beamAudio.Stop();
     }
