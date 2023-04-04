@@ -6484,6 +6484,7 @@ MonoBehaviour:
   playerInput: {fileID: 0}
   pauseScreen: {fileID: 2468176774485169694}
   defaultSelectedObj: {fileID: 3470364476718229092}
+  optionsDefaultSelectedObj: {fileID: 0}
 --- !u!114 &2386908528231092044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9115,7 +9116,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: c75ec6920de3fef4ebae55f01cdf9674, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.876
-  m_Pitch: 0.55
+  m_Pitch: 0.82
   Loop: 0
   Mute: 0
   Spatialize: 0
