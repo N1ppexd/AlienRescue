@@ -12,7 +12,9 @@ public class GamePauser : MonoBehaviour
 
     private bool pauseState;
 
-    [SerializeField] private GameObject pauseScreen, defaultSelectedObj;//default selected obj on defaultti homma joka mennee pällle, kun käöytetöön oihjainta
+    [SerializeField] private GameObject pauseScreen, 
+        defaultSelectedObj, 
+        optionsDefaultSelectedObj;//default selected obj on defaultti homma joka mennee pällle, kun käöytetöön oihjainta
 
     // Start is called before the first frame update
     void Awake()
@@ -55,7 +57,7 @@ public class GamePauser : MonoBehaviour
 
     public void PauseScreen()
     {
-        if(pauseState)
+        if(pauseState)              //tmä pätkä koodia tässä on maailman idioottisin pätkä missään
             pauseState = false;
         else if(!pauseState)
             pauseState = true;
@@ -76,6 +78,11 @@ public class GamePauser : MonoBehaviour
             pauseScreen.SetActive(false);
             Time.timeScale = 1.0f;
         }
+
+    }
+
+    public void OptionsMenu()
+    {
 
     }
 
