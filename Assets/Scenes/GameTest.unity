@@ -293,6 +293,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -442,6 +447,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -730,6 +740,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -900,6 +915,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -977,7 +997,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &20977225
 Transform:
@@ -1557,6 +1577,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "usvasein\xE4prefab (2)"
       objectReference: {fileID: 0}
+    - target: {fileID: 2657755552882516369, guid: ca4c7dc39c40dd94aa35e96972b91373,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7098686451845123234, guid: ca4c7dc39c40dd94aa35e96972b91373,
         type: 3}
       propertyPath: m_FlipX
@@ -1580,6 +1605,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -1880,6 +1910,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -1961,6 +1996,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -2029,6 +2069,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -2278,6 +2323,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -2662,6 +2712,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -2805,6 +2860,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -3620,6 +3680,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -3864,6 +3929,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -4149,6 +4219,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "usvasein\xE4prefab (7)"
       objectReference: {fileID: 0}
+    - target: {fileID: 2657755552882516369, guid: ca4c7dc39c40dd94aa35e96972b91373,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca4c7dc39c40dd94aa35e96972b91373, type: 3}
 --- !u!1001 &114772343
@@ -4231,6 +4306,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -4387,6 +4467,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -4763,6 +4848,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -4912,6 +5002,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -4980,6 +5075,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -5548,6 +5648,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -5733,6 +5838,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -6047,6 +6157,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -6197,6 +6312,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -6271,6 +6391,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -6422,6 +6547,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -6490,6 +6620,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -6634,6 +6769,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -6715,6 +6855,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -6789,6 +6934,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -6939,6 +7089,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -7302,6 +7457,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -7634,7 +7794,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &219165862
 Transform:
@@ -7671,6 +7831,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -7983,6 +8148,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -8132,6 +8302,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -9137,6 +9312,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -9430,6 +9610,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -9591,6 +9776,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -9817,6 +10007,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -9891,6 +10086,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -9973,6 +10173,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -10041,6 +10246,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -10122,6 +10332,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -10699,6 +10914,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -10783,7 +11003,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!212 &313969387
 SpriteRenderer:
@@ -10875,6 +11095,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -11187,6 +11412,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -11261,6 +11491,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -11645,6 +11880,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -12209,6 +12449,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -12604,6 +12849,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -12808,6 +13058,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "usvasein\xE4prefab (8)"
       objectReference: {fileID: 0}
+    - target: {fileID: 2657755552882516369, guid: ca4c7dc39c40dd94aa35e96972b91373,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7098686451845123234, guid: ca4c7dc39c40dd94aa35e96972b91373,
         type: 3}
       propertyPath: m_FlipX
@@ -12831,6 +13086,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -13237,6 +13497,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -13317,6 +13582,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -13482,6 +13752,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -13635,6 +13910,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -14091,6 +14371,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -14241,6 +14526,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -14309,6 +14599,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -14690,6 +14985,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -14758,6 +15058,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -15318,6 +15623,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -15745,6 +16055,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -15894,6 +16209,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -15962,6 +16282,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -16032,6 +16357,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -16100,6 +16430,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -16277,6 +16612,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -16431,6 +16771,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -16671,6 +17016,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -17205,6 +17555,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -17441,6 +17796,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -17748,6 +18108,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -17973,6 +18338,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -18113,6 +18483,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "usvasein\xE4prefab (5)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2657755552882516369, guid: ca4c7dc39c40dd94aa35e96972b91373,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7098686451845123234, guid: ca4c7dc39c40dd94aa35e96972b91373,
         type: 3}
@@ -18368,6 +18743,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -18446,7 +18826,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!212 &637664636
 SpriteRenderer:
@@ -18851,6 +19231,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -19239,6 +19624,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -19307,6 +19697,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -19385,7 +19780,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &666201096
 Transform:
@@ -19420,6 +19815,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -19768,6 +20168,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -19842,6 +20247,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -20153,6 +20563,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -20405,6 +20820,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -20774,6 +21194,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -21009,6 +21434,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -21152,6 +21582,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -21310,6 +21745,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -21742,6 +22182,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -21896,6 +22341,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -22369,6 +22819,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -23013,6 +23468,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -23081,6 +23541,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -23328,6 +23793,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -23403,6 +23873,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -23471,6 +23946,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -23621,6 +24101,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -23868,6 +24353,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -24169,6 +24659,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7981211266913859196, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -24249,6 +24744,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -24317,6 +24817,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -24467,6 +24972,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -24798,7 +25308,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &804002752
 Transform:
@@ -24828,6 +25338,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -24988,6 +25503,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -25062,6 +25582,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -25206,6 +25731,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -26027,6 +26557,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -26355,6 +26890,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -27828,6 +28368,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -28151,6 +28696,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -28294,6 +28844,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -28441,6 +28996,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -28591,6 +29151,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -28892,6 +29457,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -29029,6 +29599,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -29329,6 +29904,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -29404,6 +29984,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -29478,6 +30063,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -29628,6 +30218,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -29848,6 +30443,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -29922,6 +30522,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -30073,6 +30678,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -30208,6 +30818,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "usvasein\xE4prefab (3)"
       objectReference: {fileID: 0}
+    - target: {fileID: 2657755552882516369, guid: ca4c7dc39c40dd94aa35e96972b91373,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7098686451845123234, guid: ca4c7dc39c40dd94aa35e96972b91373,
         type: 3}
       propertyPath: m_FlipX
@@ -30300,6 +30915,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -30444,6 +31064,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -30599,6 +31224,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -30673,6 +31303,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -30754,6 +31389,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -30903,6 +31543,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -31046,6 +31691,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -31566,6 +32216,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -31640,6 +32295,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -31784,6 +32444,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -32901,6 +33566,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -33156,6 +33826,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -33231,6 +33906,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -33305,6 +33985,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -33464,6 +34149,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -33838,6 +34528,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -34003,6 +34698,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -34078,6 +34778,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -34152,6 +34857,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -34468,6 +35178,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -34542,6 +35257,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -34671,6 +35391,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "usvasein\xE4prefab (6)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2657755552882516369, guid: ca4c7dc39c40dd94aa35e96972b91373,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7098686451845123234, guid: ca4c7dc39c40dd94aa35e96972b91373,
         type: 3}
@@ -34874,6 +35599,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -35080,6 +35810,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -35154,6 +35889,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -35474,6 +36214,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -35702,6 +36447,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -35770,6 +36520,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -36000,6 +36755,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -36255,6 +37015,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -36398,6 +37163,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -36623,6 +37393,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -37004,6 +37779,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -37240,6 +38020,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -37464,6 +38249,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -37973,6 +38763,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -38387,6 +39182,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -38531,6 +39331,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -38674,6 +39479,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -39050,6 +39860,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -39205,6 +40020,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -39604,6 +40424,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -39679,6 +40504,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -39753,6 +40583,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -39834,6 +40669,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -39979,6 +40819,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -40053,6 +40898,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -40205,7 +41055,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1337959695
 Transform:
@@ -40476,6 +41326,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -40701,6 +41556,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -40866,6 +41726,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -41101,6 +41966,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -41244,6 +42114,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -41324,6 +42199,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -41566,6 +42446,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -41640,6 +42525,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -41963,6 +42853,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -42031,6 +42926,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -42186,6 +43086,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -42394,6 +43299,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -42537,6 +43447,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -43120,6 +44035,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -43360,6 +44280,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -43434,6 +44359,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -43578,6 +44508,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -43970,6 +44905,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -44124,6 +45064,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -44347,6 +45292,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -44496,6 +45446,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -44564,6 +45519,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -44816,6 +45776,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -44890,6 +45855,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -45109,6 +46079,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -45421,6 +46396,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -45702,6 +46682,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -45931,6 +46916,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -46074,6 +47064,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -46452,7 +47447,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1557922168
 Transform:
@@ -46779,6 +47774,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -47028,6 +48028,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -47252,6 +48257,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -47326,6 +48336,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -47552,6 +48567,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -47638,6 +48658,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -47876,6 +48901,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -48034,6 +49064,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -48473,6 +49508,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -48547,6 +49587,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -49288,6 +50333,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -49363,6 +50413,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -49437,6 +50492,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -49518,6 +50578,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -50048,6 +51113,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -50542,6 +51612,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -51184,6 +52259,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -51643,6 +52723,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -51939,6 +53024,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -52424,6 +53514,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -52604,6 +53699,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -52672,6 +53772,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -53232,6 +54337,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -53577,6 +54687,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -53858,6 +54973,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -54182,6 +55302,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -54256,6 +55381,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -54335,7 +55465,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!212 &1788079454
 SpriteRenderer:
@@ -54581,6 +55711,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -54967,6 +56102,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -55041,6 +56181,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -55429,6 +56574,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -55503,6 +56653,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -55736,6 +56891,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -55915,6 +57075,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -56153,6 +57318,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -56227,6 +57397,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -56377,6 +57552,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -56608,7 +57788,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1876777447
 Transform:
@@ -57100,7 +58280,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1892570037
 Transform:
@@ -57328,6 +58508,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -57730,7 +58915,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!212 &1927016537
 SpriteRenderer:
@@ -57877,6 +59062,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "usvasein\xE4prefab (4)"
       objectReference: {fileID: 0}
+    - target: {fileID: 2657755552882516369, guid: ca4c7dc39c40dd94aa35e96972b91373,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7098686451845123234, guid: ca4c7dc39c40dd94aa35e96972b91373,
         type: 3}
       propertyPath: m_FlipX
@@ -57987,6 +59177,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -58360,6 +59555,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -58518,6 +59718,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
@@ -58680,6 +59885,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -58824,6 +60034,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -58967,6 +60182,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -59124,6 +60344,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -59198,6 +60423,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -59438,6 +60668,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -59588,6 +60823,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -59662,6 +60902,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -59749,6 +60994,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
@@ -60058,6 +61308,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -60319,6 +61574,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -60393,6 +61653,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -60952,6 +62217,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -61104,7 +62374,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2041971111
 Transform:
@@ -61238,6 +62508,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -61547,6 +62822,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
       propertyPath: m_RootOrder
@@ -61713,6 +62993,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -62490,6 +63775,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu 3 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -63034,6 +64324,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -63258,6 +64553,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f659f535422e5a247bdc9ca7ad4c120b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f659f535422e5a247bdc9ca7ad4c120b,
         type: 3}
@@ -63508,6 +64808,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -63583,6 +64888,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruohotupsu (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: f3ff499341fbbd5418b12bd5fe768201,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: f3ff499341fbbd5418b12bd5fe768201,
         type: 3}
       propertyPath: m_RootOrder
@@ -63657,6 +64967,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ruohotupsu 3 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389732829530102583, guid: 19775140d8a5eea4f87fcec0f47788e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9107028841675176176, guid: 19775140d8a5eea4f87fcec0f47788e3,
         type: 3}
