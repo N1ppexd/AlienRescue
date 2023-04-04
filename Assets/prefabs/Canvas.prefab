@@ -3571,7 +3571,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a42c67adb27901f4199fc526d614310e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerInput: {fileID: 0}
   pauseScreen: {fileID: 2468176774485169694}
+  defaultSelectedObj: {fileID: 3470364476718229092}
 --- !u!114 &2386908528231092044
 MonoBehaviour:
   m_ObjectHideFlags: 0

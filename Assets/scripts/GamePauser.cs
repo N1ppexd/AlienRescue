@@ -1,22 +1,31 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 public class GamePauser : MonoBehaviour
 {
+    [SerializeField] private PlayerInput playerInput;
+
     private InputMaster inputMaster;
 
     private bool pauseState;
 
-    [SerializeField] private GameObject pauseScreen;
+    [SerializeField] private GameObject pauseScreen, defaultSelectedObj;//default selected obj on defaultti homma joka mennee p‰llle, kun k‰ˆytetˆˆn oihjainta
 
     // Start is called before the first frame update
     void Awake()
     {
         inputMaster = new InputMaster();
 
-        inputMaster.UI.OpenMenu.performed += _ => PauseScreen();
+        inputMaster.UI.OpenMenu.performed += _ => PauseScreen(); //kun pausetetaan menu, pausetetaan menu ja silleen niin jee mkoahtavaa
+        playerInput.onControlsChanged += _ => OnControlsChanged(playerInput.currentControlScheme); //kun playerinputti havaitsee ett‰ juttuja on muutettu nii sitte tehh‰‰n t‰lleen
+    }
+
+    private void Start()
+    {
+        OnControlsChanged(playerInput.currentControlScheme);//tehd‰‰n alussa, koska niin-...
     }
 
     private void OnEnable()
@@ -29,6 +38,20 @@ public class GamePauser : MonoBehaviour
         inputMaster.Disable();
     }
 
+    private bool isGamepad;
+
+    void OnControlsChanged(string mode)
+    {
+        if(mode == "Gamepad")
+        {
+            isGamepad = true;
+
+            if (pauseState)
+                SetDefaultSelectedObj();
+        }
+        else
+            isGamepad = false;
+    }
 
     public void PauseScreen()
     {
@@ -40,6 +63,12 @@ public class GamePauser : MonoBehaviour
         if (pauseState)
         {
             pauseScreen.SetActive(true);
+
+            if (isGamepad)
+            {
+                SetDefaultSelectedObj();
+            }
+
             Time.timeScale = 0;
         }
         if (!pauseState)
@@ -48,5 +77,11 @@ public class GamePauser : MonoBehaviour
             Time.timeScale = 1.0f;
         }
 
+    }
+
+    void SetDefaultSelectedObj()
+    {
+        EventSystem.current.firstSelectedGameObject = null;
+        EventSystem.current.SetSelectedGameObject(defaultSelectedObj); //laitetaan t‰m‰ p‰‰lle...
     }
 }
