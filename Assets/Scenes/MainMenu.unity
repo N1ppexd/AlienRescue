@@ -9107,6 +9107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   settingsPanel: {fileID: 1815997546}
+  defaultDefaultButton: {fileID: 1786289401}
   resolution: {fileID: 1552335561}
   windowMode: {fileID: 968018427}
   musicVolSlider: {fileID: 620592180}
