@@ -17,9 +17,19 @@ public class SpawnAliens : MonoBehaviour
         Spawn();
     }
 
+    List<GameObject> spawnPointList = new List<GameObject>();
     void Spawn()
     {
-        foreach(GameObject spawnPoint in spawnPoints)
+        for(int i = 0; i < 15; i++)
+        {
+            int j = Random.Range(0, spawnPoints.Length);
+            if (!spawnPointList.Contains(spawnPoints[j]))
+            {
+                spawnPointList.Add(spawnPoints[j]);
+            }
+            else i--;
+        }
+        foreach(GameObject spawnPoint in spawnPointList)
         {
             Instantiate(alienPrefab, spawnPoint.transform.position, spawnPoint.transform.rotation);
         }
