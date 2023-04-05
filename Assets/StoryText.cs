@@ -25,6 +25,6 @@ public class StoryText : MonoBehaviour
     }
     public void EndTexts()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Tutorial");
     }
 }

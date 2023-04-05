@@ -9,6 +9,8 @@ public class SpawnAliens : MonoBehaviour
 
     private GameObject[] spawnPoints; //spawnpoint kohdat, joihin alienit voi spawnata...
 
+    [SerializeField] private int amountOfAliens;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -20,7 +22,7 @@ public class SpawnAliens : MonoBehaviour
     List<GameObject> spawnPointList = new List<GameObject>();
     void Spawn()
     {
-        for(int i = 0; i < 15; i++)
+        for(int i = 0; i < amountOfAliens; i++)
         {
             int j = Random.Range(0, spawnPoints.Length);
             if (!spawnPointList.Contains(spawnPoints[j]))

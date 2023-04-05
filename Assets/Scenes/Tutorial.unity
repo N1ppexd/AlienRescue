@@ -9607,6 +9607,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 48659438684382175, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -116.000015
+      objectReference: {fileID: 0}
     - target: {fileID: 117724805261209686, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
         type: 3}
       propertyPath: m_Value
@@ -9626,6 +9631,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148350672918506782, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.001953125
       objectReference: {fileID: 0}
     - target: {fileID: 4254244973767570201, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
         type: 3}
@@ -9803,6 +9813,11 @@ PrefabInstance:
       propertyPath: playerInput
       value: 
       objectReference: {fileID: 1053759584992836199}
+    - target: {fileID: 9021851559399479319, guid: 3c587c8e38618d94b9d7d2133b7ccffe,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -23.999985
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c587c8e38618d94b9d7d2133b7ccffe, type: 3}
 --- !u!1 &1040033151 stripped
@@ -10483,6 +10498,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   alienPrefab: {fileID: 1291423219137995518, guid: 68144518608f14248864b487649a6fbd,
     type: 3}
+  amountOfAliens: 2
 --- !u!4 &1115890927
 Transform:
   m_ObjectHideFlags: 0
