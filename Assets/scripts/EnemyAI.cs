@@ -57,15 +57,6 @@ public class EnemyAI : MonoBehaviour
     {
         anim.SetFloat("x", axis.x);
         anim.SetFloat("y", axis.y);
-
-        if(axis.x > 0)
-        {
-            valokeila.transform.localScale = new Vector3(-1, 1, 1);
-        }
-        else
-        {
-            valokeila.transform.localScale = new Vector3(1, 1, 1);
-        }
     }
 
     
