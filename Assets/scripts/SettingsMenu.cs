@@ -4,6 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class SettingsMenu : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class SettingsMenu : MonoBehaviour
     private string screenModeString = "screenMode", screenResolutionString = "res"; // k‰ytet‰‰n playerPrefiss‰...
 
     [SerializeField] GameObject settingsPanel; //laitetaan pois p‰‰lt‰, kun poistutaan...
+    [SerializeField] GameObject defaultDefaultButton; //perus btton
 
     [SerializeField] TMP_Dropdown resolution, windowMode;
 
@@ -134,6 +136,8 @@ public class SettingsMenu : MonoBehaviour
 
     public void GoBack()//menn‰‰n pois settings menusta...
     {
+        EventSystem.current.firstSelectedGameObject = null;
+        EventSystem.current.SetSelectedGameObject(defaultDefaultButton);
         settingsPanel.SetActive(false);
     }
 }
